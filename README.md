@@ -1,8 +1,19 @@
 # 类脑芯片市场报告
 
-快照：2026年10月2日。覆盖市场分布、竞争者、商业化证据和行业动态。**统计为报告覆盖样本，不代表市场份额。**
+快照：2026年10月2日。覆盖市场分布、竞争者、商业化证据和行业动态。 当前样本含35个主体、33组产品和20项关键事件。**统计为报告覆盖样本，不代表市场份额。**
 
 [阅读完整报告](REPORT.md) · [下载可追溯 Excel](market-evidence.xlsx) · [原始数据 JSON](evidence.json)
+
+## 本轮判断变化（检索2026-10-02）
+
+|追溯项|补充证据|判断边界|
+|---|---|---|
+|C005／P033／T018|[Sandia使用方](https://www.sandia.gov/research/news/brain-based-computing-for-nuclear-deterrence-solutions/)确认2025年3月Braunfels到货、已部署并开展热流随机游走模拟；原文发布2025-06-04|由商业可用补充为使用方确认科研部署；合同、支付、供应商收入未知|
+|P033／T019|[莱比锡大学](https://www.uni-leipzig.de/newsdetail/artikel/vom-gehirn-inspiriert-supercomputer-staerkt-ki-forschung-an-der-universitaet-leipzig-2025-10-28)于2025-10-28确认10月系统投入运行|约400万欧元是科研基础设施资助，不能计采购额或SpiNNcloud收入|
+|T020|[官方标签](https://gitlab.com/spinnaker2/py-spinnaker2/-/tags)记录v0.8.2首次公开Docker镜像；关联提交日2026-09-23，[当前文档](https://spinnaker2.gitlab.io/py-spinnaker2/)与[镜像库](https://hub.docker.com/r/spinnaker2/py-spinnaker2/tags)可交叉核验|提交日期不替代首推日；软件公开不证明规模化片上训练或持续学习量产|
+|路线归类|[ScaDS.AI药物项目](https://scads.ai/research/ai-algorithms-and-methods/methods-and-hardware-for-neuro-inspired-computing/projects/drug-discovery-on-the-spinnaker2-neuromorphic-supercomputer/)明确采用int8 DNN|科研系统包含DNN和数值任务，不能一律统计为SNN训练；未核到药企付费客户|
+
+对芯灵的影响（分析）：通用动态状态和物理计算定位，需要与已部署的事件通信混合计算系统做同任务比较。具名客户、软件可获得性与端到端系统收益比架构标签更能说明竞争位置。
 
 ## 覆盖分布
 
@@ -28,7 +39,7 @@
 |C002|Innatera|硬件与平台|Pulsar异构微控制器，含SNN、RISC-V、CNN及FFT|[原始来源](https://www.innatera.com/newsroom/joya-design-takes-neuromorphic-chip-from-design-to-device-with-first-innatera-powered-consumer-audio-product-at-awe-china/)|
 |C003|SynSense时识|硬件与平台|Speck感算一体SNN、Aeveon高速视觉路线、iniVation事件相机及Rigi神经信号采集|[原始来源](https://www.synsense.ai/synsense-and-inivation-join-forces-to-form-leading-neuromorphic-technology-provider/)|
 |C004|Prophesee|硬件与平台|事件视觉传感、软件、伙伴相机生态及Mantara整机|[原始来源](https://www.prophesee.ai/event-based-camera-partners/)|
-|C005|SpiNNcloud|硬件与平台|SpiNNaker2事件通信与混合计算系统|[原始来源](https://arxiv.org/html/2412.15021v4)|
+|C005|SpiNNcloud|硬件与平台|SpiNNaker2事件通信、Arm可编程核与混合DNN／SNN科研系统|[原始来源](https://www.sandia.gov/research/news/brain-based-computing-for-nuclear-deterrence-solutions/)|
 |C006|灵汐Lynxi|硬件与平台|KA200系列，ANN与SNN融合|[原始来源](https://bidl-zh.readthedocs.io/en/latest/overview.html)|
 |C007|达尔文体系|硬件与平台|Darwin系列、物源软件平台|[原始来源](https://www.darwinware.com/en/news/2025/publish)|
 |C008|Intel|硬件与平台|Loihi2、Lava、Hala Point|[原始来源](https://www.intc.com/news-events/press-releases/detail/1691/intel-builds-worlds-largest-neuromorphic-system-to)|

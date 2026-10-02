@@ -1,18 +1,18 @@
 {
-  "snapshot": "2026-10-02",
+  "snapshot": "2026-10-03",
   "company": [
     {
       "name": "BrainChip",
       "group": "硬件与平台",
-      "route": "全数字事件驱动Akida；芯片、M.2／PCIe模块、第三方开发板及IP",
-      "fact": "监管半年报确认首批2,000颗AKD1500已收货并进入商业规模制造；最终产量因良率低于预期预计略低于计划。ASICLAND取得非独家IP分销许可，Orama.AOI被公司称为工业检测参考部署。",
-      "gap": "2,000颗是BrainChip收到的首批生产批次，不是已核实客户出货；良率问题仍在分析。ASICLAND的生产许可需逐客户另行批准并付费；Orama为伙伴公告，未披露终端工厂、订单、数量或收入。AKD1500单独收入、版税和客户名单未知。",
+      "route": "全数字事件驱动Akida；芯片、M.2／PCIe模块、第三方开发板、开放调度软件及IP",
+      "fact": "监管半年报确认首批2,000颗AKD1500已收货并进入商业规模制造；最终产量因良率低于预期预计略低于计划。2026年8月20日发布Apache 2.0许可的Symphony Community Akida Bundle，可在IBM Spectrum Symphony Community Edition下调度多张Akida卡；9月公开AkidaTag预订入口。",
+      "gap": "2,000颗是BrainChip收到的首批生产批次，不是已核实客户出货；良率问题仍在分析。Symphony代码与参考机结果可查，但属于BrainChip维护的社区包，不是IBM产品公告，也未披露企业客户部署、合同或收入。AkidaTag仍为预订／早期接入，价格、交付时间、硬件配置和客户未知。",
       "relation": "端侧SNN芯片、模块与采用路径直接替代",
       "url": "https://investor.brainchip.com/wp-content/uploads/2026/09/2026-08-26-June-2026-half-yearly-report.pdf",
-      "source": "BrainChip 2026半年报（监管文件、独立审阅）及ASICLAND／Orama官方公告；事实、发行人宣称和分析边界分列",
+      "source": "BrainChip 2026半年报（监管文件、独立审阅）、BrainChip官方发布、公开GitHub仓库及IBM Community技术博客；事实、发行人宣称和分析边界分列",
       "fresh": false,
       "id": "C001",
-      "retrieved": "2026-10-02",
+      "retrieved": "2026-10-03",
       "classification": "报告分层（分析）",
       "publication": "2026-08-26"
     },
@@ -1144,6 +1144,30 @@
       "retrieved": "2026-10-02",
       "url": "https://modelcat.ai/blog/modelcat-tm-launches-eiq-r-model-creator-to-turbocharge-ai-model-development-for-nxp-devices",
       "gap": "软件可用与订阅收费不等于已核客户数量或收入；生成模型指标为厂商宣称。ModelCat当前无自研SNN／类脑芯片证据"
+    },
+    {
+      "id": "P041",
+      "company": "BrainChip",
+      "product": "Symphony Community Akida Bundle",
+      "stage": "开发平台",
+      "evidence": "BrainChip发布＋Apache 2.0公开仓库＋IBM Community技术博客交叉确认",
+      "publication": "2026-08-20",
+      "event": "2026-08-20",
+      "retrieved": "2026-10-03",
+      "url": "https://github.com/Brainchip-Inc/symphony-akida",
+      "gap": "公开代码要求真实Akida硬件并给出8张AKD1500 M.2参考机配置；性能与精度来自公司参考机，未独立复现。社区包不是IBM产品公告，也未见企业客户、合同、SLA或收入"
+    },
+    {
+      "id": "P042",
+      "company": "BrainChip",
+      "product": "AkidaTag常开感知平台",
+      "stage": "方案／研发",
+      "evidence": "公司产品页与预订入口；页面标注2026-09-29更新",
+      "publication": null,
+      "event": null,
+      "retrieved": "2026-10-03",
+      "url": "https://brainchip.com/akida-tag/",
+      "gap": "当前仅可预订／申请早期接入；厂商宣称支持常开多模态和本地自学习，尚未核到价格、交付时间、完整硬件配置、第三方实测、具名客户或收入"
     }
   ],
   "stages": [
@@ -1162,7 +1186,7 @@
   "counts": [
     {
       "label": "方案／研发",
-      "value": 7,
+      "value": 8,
       "ids": [
         "P004",
         "P018",
@@ -1170,7 +1194,8 @@
         "P035",
         "P036",
         "P037",
-        "P038"
+        "P038",
+        "P042"
       ]
     },
     {
@@ -1201,10 +1226,11 @@
     },
     {
       "label": "开发平台",
-      "value": 2,
+      "value": 3,
       "ids": [
         "P003",
-        "P040"
+        "P040",
+        "P041"
       ]
     },
     {
@@ -1512,6 +1538,16 @@
       "retrieved": "2026-10-02"
     },
     {
+      "id": "T030",
+      "date": "2026-08-20",
+      "published": "2026-08-20",
+      "retrieved": "2026-10-03",
+      "name": "BrainChip／Symphony Community Akida Bundle",
+      "event": "发布面向多卡Akida的开源异构调度软件包",
+      "boundary": "官方发布与公开仓库确认Apache-2.0代码、8张AKD1500 M.2加3张AKD1000 PCIe参考配置及三类演示；当前仓库明确要求真实Akida硬件，结果为厂商参考复现而非独立基准。IBM Community文章仅为社区作者交叉说明，不等于IBM产品采用；未披露企业客户部署、付费合同、SLA或收入",
+      "url": "https://brainchip.com/press/brainchip-launches-symphony-community-edition-akida-bundle/"
+    },
+    {
       "id": "T024",
       "date": null,
       "published": "2026-08-24",
@@ -1686,7 +1722,7 @@
       ]
     }
   ],
-  "snapshotTime": "2026-10-02T23:09:23+08:00",
+  "snapshotTime": "2026-10-03T00:07:49+08:00",
   "liquidity": [
     {
       "label": "首批AKD1500生产批次",

@@ -65,11 +65,11 @@
       "name": "SpiNNcloud",
       "group": "硬件与平台",
       "route": "SpiNNaker2事件通信、Arm可编程核与混合DNN／SNN科研系统",
-      "fact": "Sandia确认Braunfels于2025年3月到货并部署，已开展随机游走热流模拟；莱比锡大学确认2025年10月科研系统投入运行。py-spinnaker2 v0.8.2标签提交日期2026-09-23，发布说明称首次公开Docker镜像，当前文档与Docker Hub可交叉核对。",
-      "gap": "科研系统部署由使用方确认，但供应商合同、支付、收入、复购及整机实测未知。莱比锡约400万欧元是基础设施资助，不是SpiNNcloud收入；药物筛选项目采用int8 DNN，不应计成SNN训练。SDK公开不证明规模化训练或边端持续学习量产。",
+      "fact": "Sandia确认Braunfels于2025年3月到货并部署，莱比锡大学确认2025年10月科研系统投入运行。德国公共采购结果141500-2026显示，Forschungszentrum Jülich于2026年2月25日与SpiNNcloud签订336万欧元、数量1套的SpiNNaker2硬件合同；单一投标、无分包。py-spinnaker2 v0.8.2标签提交日期2026-09-23。",
+      "gap": "商业阶段由仅确认科研部署上调为已核公共采购合同。336万欧元是合同授予值，不等于已付款或当期确认收入；与莱比锡约400万欧元科研设施资助不是同一口径。Jülich系统交付验收、收款、毛利与复购仍未知；药物筛选项目采用int8 DNN，不应计成SNN训练。",
       "relation": "科研HPC、可编程事件计算与物理数值任务竞争；通用动态状态定位需同任务证据",
       "url": "https://www.sandia.gov/research/news/brain-based-computing-for-nuclear-deterrence-solutions/",
-      "source": "Sandia与莱比锡大学使用方公告；ScaDS.AI项目；官方GitLab标签、SDK文档与Docker Hub。部署事实、机构宣称、分析与收入未知分列",
+      "source": "欧盟TED公共采购结果141500-2026及德国招标镜像；Sandia与莱比锡大学使用方公告；ScaDS.AI项目；官方GitLab标签、SDK文档与Docker Hub。合同、付款、收入与科研部署分列",
       "fresh": false,
       "id": "C005",
       "retrieved": "2026-10-02",
@@ -99,6 +99,14 @@
         {
           "label": "公开Docker镜像",
           "url": "https://hub.docker.com/r/spinnaker2/py-spinnaker2/tags"
+        },
+        {
+          "label": "Jülich公共采购原公告（TED 141500-2026）",
+          "url": "https://ted.europa.eu/en/notice/-/detail/141500-2026"
+        },
+        {
+          "label": "Jülich采购结果全文镜像",
+          "url": "https://ausschreibungen-deutschland.de/2452057_Deutschland__Server__Neuromorphe_Computing_Hardware_SpiNNaker2_2026_Juelich"
         }
       ]
     },
@@ -191,16 +199,30 @@
       "name": "维泛智能",
       "group": "硬件与平台",
       "route": "BiGPU，GPU与BPU双模同构；具身大小脑芯片、BrainOS、OmniRT",
-      "fact": "PAICORE 2.5测试芯片回片并完成原型板首测；北京日报客户端2026-08-24报道团队在机器人赛事中使用自研OmniRT，6月与乐聚签署芯片适配等战略合作",
-      "gap": "证明工程工具存在和协同验证，不等于量产或付费。2027年二季度投产仍是计划；9月外部开放、客户付费与正式规格未知",
+      "fact": "PAICORE 2.5测试芯片回片并完成原型板首测；8月24日钛媒体报道公司披露完成过亿元种子+轮，距5月数亿元种子轮约三个月；资金拟用于量产芯片研发及BrainOS、OmniRT产品化和商用交付。团队另在机器人赛事使用OmniRT，并与乐聚签署芯片适配等合作。",
+      "gap": "两轮融资分开记录，融资不计收入，也不证明量产。PAICORE 2.5仍是测试芯片；2027年二季度投产、9月外部开放、客户付费与正式产品规格仍待核。报道中的联调／合作交流不等于采购、验收或收入。",
       "relation": "芯片及工具链替代",
-      "url": "https://news.bjd.com.cn/2026/08/24/90070084.shtml",
-      "source": "北大、北京日报客户端与中国机器人产业发展联盟；公司技术／合作口径，检索2026-10-02",
+      "url": "https://www.tmtpost.com/8113528.html",
+      "source": "中关村发展集团公众号转载、钛媒体融资稿、北大、北京日报客户端与中国机器人产业发展联盟；融资、技术、合作与收入分列，检索2026-10-02",
       "fresh": false,
       "id": "C011",
       "retrieved": "2026-10-02",
       "classification": "报告分层（分析）",
-      "publication": null
+      "publication": null,
+      "sources": [
+        {
+          "label": "8月种子+轮与产品化口径",
+          "url": "https://www.tmtpost.com/8113528.html"
+        },
+        {
+          "label": "5月种子轮投资方口径转载",
+          "url": "https://finance.sina.com.cn/wm/2026-05-26/doc-inhzfshn1379114.shtml"
+        },
+        {
+          "label": "OmniRT赛事使用",
+          "url": "https://news.bjd.com.cn/2026/08/24/90070084.shtml"
+        }
+      ]
     },
     {
       "name": "具脑磐石 EBKernel",
@@ -981,13 +1003,13 @@
       "id": "P033",
       "company": "SpiNNcloud",
       "product": "SpiNNaker2科研系统／Braunfels与莱比锡部署",
-      "stage": "科研部署已确认",
-      "evidence": "Sandia与莱比锡大学作为使用方确认系统已到货／运行；软件公开镜像与教程可读",
+      "stage": "已签公共采购合同／科研部署",
+      "evidence": "Jülich公共采购结果确认336万欧元合同；Sandia与莱比锡大学作为使用方确认系统已到货／运行；软件公开镜像与教程可读",
       "publication": "2025-06-04",
       "event": null,
       "eventMonth": "2025-03",
       "retrieved": "2026-10-02",
-      "gap": "到货月份不是日；部署不是供应商收入。约400万欧元为莱比锡科研设施资助；无合同、支付、规模化训练或同任务整机实测",
+      "gap": "336万欧元是2026年2月25日合同授予值，不等于已付款或收入确认；与莱比锡约400万欧元科研设施资助分开。Jülich交付验收、收款、毛利、复购、规模化训练与同任务整机实测未知",
       "url": "https://www.sandia.gov/research/news/brain-based-computing-for-nuclear-deterrence-solutions/",
       "sources": [
         {
@@ -1013,6 +1035,14 @@
         {
           "label": "公开Docker镜像",
           "url": "https://hub.docker.com/r/spinnaker2/py-spinnaker2/tags"
+        },
+        {
+          "label": "Jülich公共采购原公告（TED 141500-2026）",
+          "url": "https://ted.europa.eu/en/notice/-/detail/141500-2026"
+        },
+        {
+          "label": "Jülich采购结果全文镜像",
+          "url": "https://ausschreibungen-deutschland.de/2452057_Deutschland__Server__Neuromorphe_Computing_Hardware_SpiNNaker2_2026_Juelich"
         }
       ]
     },
@@ -1100,7 +1130,7 @@
     "商品页／售罄",
     "生产／部署声明",
     "发布／演示",
-    "科研部署已确认"
+    "已签公共采购合同／科研部署"
   ],
   "counts": [
     {
@@ -1202,7 +1232,7 @@
       ]
     },
     {
-      "label": "科研部署已确认",
+      "label": "已签公共采购合同／科研部署",
       "value": 1,
       "ids": [
         "P033"
@@ -1282,6 +1312,26 @@
       "id": "T001",
       "published": "2026-02-04",
       "retrieved": "2026-10-02"
+    },
+    {
+      "id": "T026",
+      "date": "2026-02-25",
+      "published": "2026-03-02",
+      "retrieved": "2026-10-02",
+      "name": "Forschungszentrum Jülich／SpiNNcloud",
+      "event": "336万欧元SpiNNaker2公共采购合同签订",
+      "boundary": "公共采购结果确认合同授予值、数量1套、单一投标且无分包；合同不等于已付款、交付验收或当期收入确认",
+      "url": "https://ted.europa.eu/en/notice/-/detail/141500-2026",
+      "sources": [
+        {
+          "label": "TED原公告",
+          "url": "https://ted.europa.eu/en/notice/-/detail/141500-2026"
+        },
+        {
+          "label": "采购结果全文镜像",
+          "url": "https://ausschreibungen-deutschland.de/2452057_Deutschland__Server__Neuromorphe_Computing_Hardware_SpiNNaker2_2026_Juelich"
+        }
+      ]
     },
     {
       "id": "T022",
@@ -1434,6 +1484,17 @@
       "url": "https://www.orbbec.com/news/orbbec-and-tashan-technology-form-strategic-partnership-to-advance-vision-tactile-data-collection-solutions/"
     },
     {
+      "id": "T027",
+      "date": null,
+      "eventMonth": "2026-08",
+      "published": "2026-08-24",
+      "retrieved": "2026-10-02",
+      "name": "维泛智能",
+      "event": "披露过亿元种子+轮融资",
+      "boundary": "据公司向钛媒体披露；与2026年5月数亿元种子轮分开。融资拟用于量产芯片、BrainOS与OmniRT产品化，不等于收入、量产或客户付款",
+      "url": "https://www.tmtpost.com/8113528.html"
+    },
+    {
       "date": "2026-08-31",
       "name": "MemryX／Express LUCK",
       "event": "生产线部署",
@@ -1577,7 +1638,7 @@
       ]
     }
   ],
-  "snapshotTime": "2026-10-02T21:38:18+08:00",
+  "snapshotTime": "2026-10-02T22:31:33+08:00",
   "liquidity": [
     {
       "label": "首批AKD1500生产批次",

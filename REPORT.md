@@ -1,6 +1,6 @@
 # 类脑芯片市场报告
 
-数据快照：2026年10月2日，事件视觉与多模态采集模组专题已同步。先查看覆盖分布、34组产品证据阶段、BrainChip收入与现金指标、并购退出追溯及20项关键事件，点击分类追溯公司／产品编号及来源；下方保留竞争地图的公司选择与证据缺口。统计仅代表报告覆盖样本，竞争关系和阶段归类为分析判断，原始证据章节可按需展开。 [GitHub图表与报告副本](https://github.com/v5qqskzkhj-ship-it/neuromorphic-market-report)已发布2026年10月2日快照；仓库为私有，需登录拥有访问权限的GitHub账号。
+数据快照：2026年10月2日，模拟AI、存算与数据流复核已同步。先查看覆盖分布、38组产品证据阶段、BrainChip收入与现金指标、并购退出追溯及22项关键事件，点击分类追溯公司／产品编号及来源；下方保留竞争地图的公司选择与证据缺口。统计仅代表报告覆盖样本，竞争关系和阶段归类为分析判断，原始证据章节可按需展开。 [GitHub图表与报告副本](https://github.com/v5qqskzkhj-ship-it/neuromorphic-market-report)已发布2026年10月2日快照；仓库为私有，需登录拥有访问权限的GitHub账号。
 
 [打开交互竞争地图](dashboard.html)
 
@@ -8,17 +8,17 @@
 
 ### 图表数据与追溯口径 2026年10月2日
 
-统计来自本报告当前覆盖样本，不代表行业规模、市场份额或穷尽企业数。主体和产品采用不同分母：35个主体、34组重点产品；产品阶段是按公开证据进行的分析归类，不等于统一成熟度认证。图中点击分类可查看编号、来源、证据类型和缺口。另列两项科研记录，研究品牌不计作新增公司；相邻替代专题新增5个主体与7组产品证据，按芯片、开发板和分销状态分开记录。
+统计来自本报告当前覆盖样本，不代表行业规模、市场份额或穷尽企业数。主体和产品采用不同分母：36个主体、38组重点产品；产品阶段是按公开证据进行的分析归类，不等于统一成熟度认证。图中点击分类可查看编号、来源、证据类型和缺口。另列两项科研记录，研究品牌不计作新增公司；相邻替代专题新增5个主体与7组产品证据，按芯片、开发板和分销状态分开记录。
 
 | 主体层次 | 覆盖数量 |
 |---|---:|
 | 硬件与平台 | 11 |
 | 模型与系统 | 6 |
-| 相邻替代 | 18 |
+| 相邻替代 | 19 |
 
 | 产品证据阶段 | 数量 | 产品证据编号 |
 |---|---:|---|
-| 方案／研发 | 3 | P004、P018、P021 |
+| 方案／研发 | 7 | P004、P018、P021、P035、P036、P037、P038 |
 | 研究／原型 | 1 | P009 |
 | 工程样片 | 2 | P012、P019 |
 | IP／商务接洽 | 5 | P010、P015、P016、P020、P022 |
@@ -30,9 +30,9 @@
 | 发布／演示 | 1 | P023 |
 | 科研部署已确认 | 1 | P033 |
 
-“生产／部署声明”保留厂商或报道宣称属性，不将其等同于经核验销售收入；可采购相机、模块及开发板不等于裸芯片批量出货。20个关键事件另以T001–T020编号，事件日、发布日期、检索日期分别列示；未知日期留空；T018与T019只确认部署月份，不补造具体日。T020记录标签关联提交日，不替代镜像实际推送日。“科研部署已确认”指使用方公开确认系统到货／运行，仍不等同供应商已收款或确认收入。“商品页／售罄”表示存在正式SKU、价格和规格，但检索时不可下单；不等同当前供货或已核实出货。C001–C035为主体编号，P001–P034为产品证据编号。收入图只比较BrainChip集团2025H1与2026H1公开收入构成，不跨厂商排名；收入、客户收款、现金、生产批次、客户出货、融资和并购分别记录。R001–R002单列研究验证，不计入34组产品分母；“发布／演示”避免将已发布芯片误写成量产。
+“生产／部署声明”保留厂商或报道宣称属性，不将其等同于经核验销售收入；可采购相机、模块及开发板不等于裸芯片批量出货。22个关键事件另以T001–T022编号，事件日、发布日期、检索日期分别列示；未知日期留空；T018与T019只确认部署月份，不补造具体日。T020记录标签关联提交日，不替代镜像实际推送日。“科研部署已确认”指使用方公开确认系统到货／运行，仍不等同供应商已收款或确认收入。“商品页／售罄”表示存在正式SKU、价格和规格，但检索时不可下单；不等同当前供货或已核实出货。C001–C036为主体编号，P001–P038为产品证据编号。收入图只比较BrainChip集团2025H1与2026H1公开收入构成，不跨厂商排名；收入、客户收款、现金、生产批次、客户出货、融资和并购分别记录。R001–R002单列研究验证，不计入38组产品分母；“发布／演示”避免将已发布芯片误写成量产。
 
-[下载图表与证据数据（Excel）](market-evidence.xlsx)：包含图表汇总、主体证据、产品阶段、事件与财务四个表页，可按编号筛选并打开原始URL。来源可读状态及事实／厂商宣称／分析／未知边界沿用当前报告；本轮补入OpenMV／Prophesee生态的多光谱事件相机模组，新增P034并单列为“商品页／售罄”；共35个主体、34组产品、20项关键事件、6项并购／整合记录和2项研究。公开价格、库存状态、出货、客户和收入分开记录。
+[下载图表与证据数据（Excel）](market-evidence.xlsx)：包含图表汇总、主体证据、产品阶段、事件与财务四个表页，可按编号筛选并打开原始URL。来源可读状态及事实／厂商宣称／分析／未知边界沿用当前报告；本轮新增Mythic Vanguard、Starlight、Mead三条在研产品路线及Aspirare模拟计算路线，新增P035–P038与T021–T022；共36个主体、38组产品、22项关键事件、6项并购／整合记录和2项研究。正式产品页、专利、供应链选型、样片、出货、客户和收入分开记录。
 
 本报告是一份可持续更新的市场底稿，不宣称已穷尽互联网。付费数据库、未公开合同、闭源技术及未索引页面可能无法获得。没有证据的收入、客户和市场份额保持未知。
 
@@ -70,7 +70,7 @@ Mordor报告称2025年数字处理器占43.56%，航空航天与国防占29.73%�
 | 中国 | 时识、灵汐、九天睿芯、他山、脑智算芯、浙大达尔文体系；新增维泛智能、具脑磐石、最终序列、WorldMind，模型与系统层单列 | 感算融合、触觉、脑机接口、ANN与SNN融合、系统级计算 |
 | 欧洲 | Innatera、Prophesee、SpiNNcloud、Synthara | 传感微控制器、事件视觉整机、类脑计算系统、存算IP |
 | 美国及澳大利亚跨区 | Intel、BrainChip、Aspinity、Rain、MemryX；World Labs按模型／系统层单列 | 科研平台、数字类脑IP、模拟前端、存算与视觉推理；空间世界模型与机器人仿真 |
-| 加拿大 | Blumind；Aspirare为待核实线索 | 模拟AI与常开传感 |
+| 加拿大 | Blumind、Aspirare | 模拟AI、常开传感与模拟MAC知识产权；Aspirare仍无硅证据 |
 | 印度及其他区域 | Innatera开发与方案伙伴；Kumrah AI与iniVation合作线索 | 生态与系统开发，尚不能由合作新闻推断芯片销售规模 |
 
 供应主体的产品证据见下文。印度与中东合作线索来自[Innatera伙伴部署说明](https://www.innatera.com/newsroom/neuromorphic-enters-the-mainstream-with-innateras-pulsar-chip-at-embedded-world-2026/)与[SynSense新闻页](https://www.synsense.ai/news/)。
@@ -81,15 +81,15 @@ Mordor报告称2025年数字处理器占43.56%，航空航天与国防占29.73%�
 |---|---|---|---|
 | 常开音频及人体存在检测 | 电池寿命、误触发、响应速度 | Innatera／Joya EdgeCore、SynSense、POLYN、Blumind、Aspinity | Innatera已有客户模块证据；Aspinity AML100为生产IC；POLYN已有工程芯片与评估申请。Blumind仍为联系式获取，均需核实终端批量、复购和收入 |
 | 工业异常、机器视觉与预测维护 | 本地判断、减少传输、长期可靠性 | MemryX、Innatera伙伴、POLYN、Aspinity、Synthara | MemryX已出现Express LUCK具名生产线部署，成熟度领先于仅评估；POLYN VibroSense IIOT仍为仿真原型且商务暂停；Synthara为硅验证IP。应比较整套系统，不只看计算核心 |
-| 车载与机器人边缘AI | 功耗、确定性、功能安全、长期供货 | Mythic／Honda、MemryX、REEXEN、传统NPU | 本田与Mythic为联合开发未来车载SoC，不是当前量产定点；Videantis既有汽车装机属于被收购数字IP。MemryX有工厂部署但未见汽车量产，REEXEN具公司口径订单但客户未具名 |
+| 车载与机器人边缘AI | 功耗、确定性、功能安全、长期供货 | Mythic／Honda、MemryX、REEXEN、传统NPU | 本田与Mythic为联合开发未来车载SoC，不是当前量产定点；Vanguard虽有2027可用计划和GF 28nm模拟die／TSMC 5nm数字die说明，仍未见流片、样片或客户。Videantis既有汽车装机属于被收购数字IP。MemryX有工厂部署但未见汽车量产，REEXEN具公司口径订单但客户未具名 |
 | 车载胎压与路面附着估计 | 胎内低功耗、实时响应、车辆接口与可靠性 | POLYN VibroSense TMS | 2026年9月28日公司称工程传感节点开始供潜在客户评估；未披露具名评估方、订单、汽车认证、量产数量或收入 |
 | 动态视觉及XR | 高速运动、低延迟、事件数据 | Prophesee／Sony IMX636／637伙伴相机；iniVation相机；SynSense Speck／Aeveon | IDS相机有现货／系列生产证据，LUCID称Triton2 EVS已发货；iniVation当前网店列公开价格。OpenMV的400美元GenX320模组与500美元多光谱事件相机模组均有正式SKU但检索时售罄；后者同步集成GenX320事件流与1MP／120 FPS彩色全局快门。Aeveon仅见发布、询价与宣传目录，未见公开数据表、开发板、价格或库存；商品页与可采购相机均不等于事件传感器或SNN芯片收入 |
-| 无人机与防务感知 | 低载荷功耗、高速目标检测 | Prophesee Mantara／Terranet BlincVision；Aspinity；Mythic；AnalogAI；Grayscale AI、Neurobus为系统线索 | Aspinity AML100可部署但AML200仍为测试芯片；Mythic M1可联系评估；AnalogAI仅到IP选型。Prophesee称Mantara已现场验证，Terranet为评估协议；均需量产订单与部署证据 |
+| 无人机与防务感知 | 低载荷功耗、高速目标检测 | Prophesee Mantara／Terranet BlincVision；Aspinity；Mythic；AnalogAI；Grayscale AI、Neurobus为系统线索 | Aspinity AML100可部署但AML200仍为测试芯片；Mythic M1可联系评估，Starlight仅属在研传感集成路线，现有720P演示运行于M1硅片而非已完成集成传感器；AnalogAI仅到IP选型。Prophesee称Mantara已现场验证，Terranet为评估协议；均需量产订单与部署证据 |
 | 机器人触觉和数据采集 | 接触、滑移、力反馈、多模态数据 | 他山／奥比中光；SynSense Speck2f研究生态 | 他山已有E10A发布、NVIDIA仿真资产与合作方数采协议，传感器月交付数万枚仍为公司／媒体口径；Speck2f已有直接触觉事件推理研究。两者均不能推断世界模型训练增益或量产芯片收入 |
 | 生物电与脑机接口 | 通道、发热、实时解码 | SynSense | 厂商布局明确；采集、检测和临床获批是不同状态 |
 | 科研、脑仿真与数值计算 | 神经动力学、在线学习、系统扩展与物理计算 | Intel、SpiNNcloud、达尔文、灵汐 | Sandia确认SpiNNaker2部署并开展热流随机游走模拟；莱比锡系统已运行，药物项目含int8 DNN。科研部署不等同端侧量产、付费确认或世界模型训练 |
 | 传统低功耗MCU／DSP／NPU | 熟悉工具链、接口集成、供货与BOM | ST STM32N6、NXP i.MX RT700、Synaptics SL2610、Hailo-10H、Ambiq Apollo510 | ST、NXP开发硬件已有现货或直购证据，Synaptics和Hailo有分销或订单入口，Ambiq评估板有现货而Apollo510 Lite芯片仍待到货。公开资料聚焦模型编译与推理，未见可比的片上在线权重更新；不能跨模型比较功耗 |
-| 大模型推理 | 权重搬运、KV Cache、能效 | SpiNNcloud、九天睿芯、脑智算芯；Hailo-10H、Synaptics SL2610、Mythic、Rain、Synthara相邻 | Hailo-10H已有商业订单入口，SL2610开发套件有分销链接；九天睿芯HBF／ADA300／400仍按官网方案与路线记录。类脑标签不能证明优于成熟加速器，需核对模型、精度、内存和整机功耗 |
+| 大模型推理 | 权重搬运、KV Cache、能效 | SpiNNcloud、九天睿芯、脑智算芯；Hailo-10H、Synaptics SL2610、Mythic、Rain、Synthara相邻 | Hailo-10H已有商业订单入口，SL2610开发套件有分销链接；Mythic Vanguard计划2027可用，Mead仍为在研3D NAND路线；Rain只确认数字CIM IP当前可授权、自有硬件“即将可用”；九天睿芯HBF／ADA300／400仍按官网方案与路线记录。类脑或模拟标签不能证明优于成熟加速器，需核对模型、精度、内存和整机功耗 |
 
 上述应用判断是对企业公开产品定位的归纳；各主体事实来源见竞争矩阵。
 
@@ -185,9 +185,9 @@ WorldMind：[新京报引点石资本公众号，2026-09-07](https://m.bjnews.co
 | POLYN | NASP固定模拟网络前端；VAD、VibroSense TMS工程芯片 | 官网说明已有两款工程芯片；2026年9月28日称开始交付VibroSense TMS工程传感节点供潜在客户评估；固定模拟结构不能片上重训 | 常开传感、车载胎内处理与数据压缩替代；客户评估强于流片，但仍不是量产、订单或收入 |
 | Blumind | BM110音频／时序、BM210视觉；AMPL全模拟IP、chiplet及KGD | 官网列出产品名、PyTorch／TensorFlow权重映射流程并称AMPL硅验证；全部采用联系式获取，本轮未见数据表、价格、库存、具名客户或收入 | 常开音频、时序与视觉触发竞争；按硅验证／商务接洽记录，不能从获奖或“产品”字样推断量产 |
 | Aspinity | AML100模拟AI前端；AML200射频模拟AI | 官网明确区分：AML100为生产IC、正在出货且配套Python SDK；AML200仍为“开发中、测试芯片已验证” | AML100是可部署的模拟前端替代；AML200不能按量产RF芯片记录，性能数字均为厂商测试口径 |
-| Mythic | M1模拟存算APU；Vanguard混合模拟／数字路线；Videantis数字处理IP | M1官网提供“立即评估”入口；2026年2月本田投资并宣布联合开发车载SoC；5月19日完成收购Videantis | 车载、机器人、视觉与边缘AI的重要模拟CIM竞争者。Videantis逾2500万颗芯片的既有装机是其数字IP成绩，不能追溯为Mythic模拟APU出货 |
-| 九天睿芯REEXEN | 既有SRAM存算边缘芯片；HBF SSD、ADA300／400及服务器路线 | 2025年投资界转述公司称既有芯片在多家客户量产并获未具名国际品牌订单，第二代轻量大模型芯片已流片；当前官网新增HBF、ADA300／400和服务器，但未披露这些新系统的上市日、数据表、价格、评估或客户 | 既有边缘产品与新大模型路线必须分账：前者是公司／媒体量产口径，后者仍按官网路线与方案记录；均缺具名采购和审计收入 |
-| Rain AI | 数字存内计算tile及软件IP；后续自有芯片 | 产品页明确IP可用于定制SoC，硬件“即将可用”；本轮未见公开芯片型号、开发板、价格、库存或客户 | 当前是数字CIM IP替代，不按历史“模拟／类脑”标签归类；片上微调仍是研发叙事而非已交付产品功能 |
+| Mythic | M1模拟存算APU；Vanguard混合模拟／数字APU；Starlight传感集成；Mead 3D NAND大模型路线；Videantis数字处理IP | M1可申请评估；Vanguard官网明确计划2027可用，并列GF 28nm模拟die与TSMC N5A数字die；Microchip／SST于3月17日确认其下一代APU选用memBrain／SuperFlash。Starlight与Mead均标注“IN DEVELOPMENT”；前者只有基于M1硅片的低照度演示，后者未见硅片。Honda联合开发与Videantis收购另有官方证据 | 模拟CIM路线已从单一M1扩展到混合APU、感知集成和3D NAND构想，但新增路线仍是研发／供应链阶段；120 TOPS/W、75–1900× TPS/W、低于1W等均为厂商目标或比较口径，不能作跨平台排名。Videantis既有装机不能追溯为Mythic模拟APU出货 |
+| 九天睿芯REEXEN | 既有SRAM存算边缘芯片；HBF容量层、ADA300／400及服务器路线 | 2025年投资界转述公司称既有芯片在多家客户量产并获未具名国际品牌订单，第二代轻量大模型芯片已流片；当前官网把HBF定义为NAND近计算容量层，并明确HBF与SRAM-CIM不是同一种器件，公司仍在“探索”HBF、TSV、Hybrid Bonding与软件协同。未披露这些新系统的上市日、数据表、价格、评估或客户 | 既有边缘产品与新大模型路线必须分账：HBF不计作CIM芯片，官网探索不计交付；既有量产仍是公司／媒体口径，均缺具名采购和审计收入 |
+| Rain AI | 数字存内计算tile及软件IP；后续自有芯片 | 产品页明确IP可用于定制SoC且“available today”，自有硬件仍为“available soon”；本轮未见公开芯片型号、开发板、价格、库存或客户 | 当前可核的是数字CIM IP授权入口，不按历史“模拟／类脑”标签归类；“即将推出”不能写成芯片已流片、送样或交付 |
 | MemryX | MX3近存数据流NPU与Cascade模块；MX3+／MX4后续路线 | MX3官网标为可批量下单；2026年8月31日MemryX与Express LUCK联合稿称系统已部署在日常生产线；同年6月扩展Cascade产品族 | 已从“在产但客户未知”上调为具名工厂部署与公开批量订购入口；部署规模、采购数量、合同金额和收入仍未披露 |
 | Synthara | ComputeRAM数字存内计算SRAM IP宏 | 官方资料称为“硅验证”的可授权IP宏并配套SDK路线；本轮未见封装芯片、公开SDK下载、价格、库存、具名design win或收入 | 可嵌入成熟MCU／SoC，直接竞争独立协处理器；厂商基准不能跨平台做功耗排名 |
 | AnalogAI | 基于SST memBrain SAGE的模拟CIM边缘处理器 | 2026年9月15日Microchip称AnalogAI为首代处理器选用其硅验证IP；未见芯片型号、流片、样片、开发板、客户或收入 | 新增长尾，处于IP／供应链选型阶段；“同时训练与推理、低于1W”是目标与厂商宣称，不是量产证据 |
@@ -201,7 +201,7 @@ WorldMind：[新京报引点石资本公众号，2026-09-07](https://m.bjnews.co
 | Ambiq | Apollo510 Cortex-M55 MCU、评估板；Apollo510 Lite芯片 | DigiKey在2026年10月2日显示Apollo510 EVB有12套库存；Apollo510 Lite SKU为Active但库存0，约4900颗预计10月5日到货。官方资料明确Apollo510不含独立NPU，NeuralSPOT／HELIA用于推理 | 常开语音与传感可由高效MCU替代；评估板可买强于仅发布，但Lite芯片未按现货或已量产收入记录，未见片上在线权重更新 |
 | Neurxcore | 神经处理器IP及软件 | 官方产品公告基于NVIDIA DLA | 放入传统NPU替代池，不能与SENeCA混淆 |
 
-来源：[POLYN客户评估公告](https://polyn.ai/polyn-delivers-first-vibrosense-tms-engineering-sensor-nodes-for-customer-evaluation/)、[Blumind产品页](https://blumind.ai/products/)、[Aspinity AML100／AML200](https://www.aspinity.com/products.html)、[本田与Mythic联合开发](https://global.honda/en/topics/2026/c_2026-02-04eng.html)、[Mythic M1](https://www.mythic.ai/m-1)、[Mythic收购Videantis](https://www.mythic.ai/newsroom/Blog%20Post%20Title%20One-3zaa9-zlxng-67tfc-lbgbx)、[REEXEN当前产品体系](https://www.reexen.com/)、[投资界2025年B轮全文](https://news.pedaily.cn/202509/555264.shtml)、[Rain产品](https://rain.ai/products)、[MemryX MX3](https://memryx.ai/mx3/)、[Express LUCK部署公告](https://memryx.ai/news/express-luck-selects-memryx-for-ai-enabled-smart-manufacturing-operations/)、[Synthara ComputeRAM资料](https://synthara.ai/wp-content/uploads/2025/03/EW-version-Leaflet-Trifolds.pdf)、[Microchip／AnalogAI](https://ir.microchip.com/news-events/press-releases/detail/1414/analogai-selects-membrain-sage-intellectual-property-from-silicon-storage-technology-for-its-first-real-world-edge-ai-processors)、[semiQa技术与产品](https://semiqa.com/en/technology)、[semiQa融资报道](https://dealroom.co/news/156001-polands-semiqa-raises-seed-round-to-build-energy-efficient-ai-chips/)、[Neurxcore产品公告](https://neurxcore.com/portfolio/neurxcore-introduces-innovative-npu-product-line-for-ai-inference-applications-powered-by-nvidia-deep-learning-accelerator-technology/、[ST STM32N6570-DK](https://www.st.com/en/evaluation-tools/stm32n6570-dk.html)、[ST STM32N657X0](https://www.st.com/en/microcontrollers-microprocessors/stm32n657x0.html)、[NXP MIMXRT700-EVK](https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/mimxrt700-evk-evaluation-kit-for-i-mx-rt700-family:MIMXRT700-EVK)、[Synaptics Astra Machina SL-Series](https://www.synaptics.com/products/embedded-processors/astra-machina-sl-series)、[Hailo-10H商业可用公告](https://hailo.ai/company-overview/news/hailo-10h-ai-accelerator-launch/)、[Ambiq Apollo510](https://ambiq.com/apollo510/)、[DigiKey Apollo510 EVB](https://www.digikey.com/en/products/detail/ambiq-micro-inc/EVB-APOLLO510/))。
+来源：[POLYN客户评估公告](https://polyn.ai/polyn-delivers-first-vibrosense-tms-engineering-sensor-nodes-for-customer-evaluation/)、[Blumind产品页](https://blumind.ai/products/)、[Aspinity AML100／AML200](https://www.aspinity.com/products.html)、[本田与Mythic联合开发](https://global.honda/en/topics/2026/c_2026-02-04eng.html)、[Mythic M1](https://www.mythic.ai/m-1)、[Mythic Vanguard](https://www.mythic.ai/vanguard)、[Mythic Starlight](https://www.mythic.ai/starlight)、[Mythic Mead](https://www.mythic.ai/mead)、[Microchip／Mythic memBrain选型](https://www.microchip.com/en-us/about/news-releases/products/mythic-selects-membrain-technology-from-sst-for-its-next-gen-ultra-low-power-apus)、[Mythic收购Videantis](https://www.mythic.ai/newsroom/Blog%20Post%20Title%20One-3zaa9-zlxng-67tfc-lbgbx)、[REEXEN当前产品体系](https://www.reexen.com/)、[投资界2025年B轮全文](https://news.pedaily.cn/202509/555264.shtml)、[Rain产品](https://rain.ai/products)、[MemryX MX3](https://memryx.ai/mx3/)、[Express LUCK部署公告](https://memryx.ai/news/express-luck-selects-memryx-for-ai-enabled-smart-manufacturing-operations/)、[Synthara ComputeRAM资料](https://synthara.ai/wp-content/uploads/2025/03/EW-version-Leaflet-Trifolds.pdf)、[Microchip／AnalogAI](https://ir.microchip.com/news-events/press-releases/detail/1414/analogai-selects-membrain-sage-intellectual-property-from-silicon-storage-technology-for-its-first-real-world-edge-ai-processors)、[semiQa技术与产品](https://semiqa.com/en/technology)、[semiQa融资报道](https://dealroom.co/news/156001-polands-semiqa-raises-seed-round-to-build-energy-efficient-ai-chips/)、[Neurxcore产品公告](https://neurxcore.com/portfolio/neurxcore-introduces-innovative-npu-product-line-for-ai-inference-applications-powered-by-nvidia-deep-learning-accelerator-technology/、[ST STM32N6570-DK](https://www.st.com/en/evaluation-tools/stm32n6570-dk.html)、[ST STM32N657X0](https://www.st.com/en/microcontrollers-microprocessors/stm32n657x0.html)、[NXP MIMXRT700-EVK](https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/mimxrt700-evk-evaluation-kit-for-i-mx-rt700-family:MIMXRT700-EVK)、[Synaptics Astra Machina SL-Series](https://www.synaptics.com/products/embedded-processors/astra-machina-sl-series)、[Hailo-10H商业可用公告](https://hailo.ai/company-overview/news/hailo-10h-ai-accelerator-launch/)、[Ambiq Apollo510](https://ambiq.com/apollo510/)、[DigiKey Apollo510 EVB](https://www.digikey.com/en/products/detail/ambiq-micro-inc/EVB-APOLLO510/))。
 
 ### 传统端侧替代证据补充
 
@@ -219,13 +219,13 @@ Syntiant[当前产品阶段表](https://www.syntiant.com/platform/chips-and-hard
 | iniVation → SynSense Group | 2024年2月1日公告确认100%股份收购；苏黎世实体继续运营并服务客户 | 已完成所有权整合，iniVation不再作为独立所有权供应商计数；品牌与产品延续 | 交易金额、收入拆分和整合后的客户规模未知 |
 | Knowles消费MEMS麦克风业务 → Syntiant | 2024年12月30日完成，1.5亿美元现金加股票；被收购业务2023年收入约2.56亿美元 | 传感器、处理器、模型和软件垂直整合 | 被收购业务历史收入不能计为NDP芯片收入；收购后收入拆分未知 |
 | SceniX → World Labs → AMD | World Labs于2026年7月21日收购SceniX；AMD于9月26日签署、9月28日宣布约82亿美元全股票收购World Labs协议 | SceniX已并入；AMD交易预计2026年底完成，仍待监管批准和惯例条件，不写成已完成 | World Labs／SceniX客户、收入、AMD交割结果及事件数据／SNN采用证据未知 |
-| Aspirare Semi | 官网称提供采用模拟计算核心的边缘AI芯片，并给出相对传统方案的性能与能耗宣称 | 模拟AI芯片创业公司线索；未找到型号数据手册、流片、评估板、代工或客户证据 | 真实ASIC、制程、实测条件、交付阶段及融资 |
+| Aspirare Semi | 官网称提供采用模拟计算核心的边缘AI芯片；美国专利申请US20260057197A1于2026年2月26日公开，申请人／受让人列为14873891 Canada Inc. dba Aspirare，披露DAC、模拟计算矩阵、数字权重和ADC电路 | 已确认法律主体与模拟MAC知识产权路线，纳入相邻替代主体；专利和官网宣称仍不等于ASIC已实现 | 芯片型号、流片、样片、制程、数据表、评估板、代工、客户、融资及相对性能实测 |
 | Vivum AI | 官网定位Evolutionary AI与边缘自主系统；投资方页面提到模型及协处理器 | 模型／系统公司，尚不能确认自研ASIC供应商 | 协处理器形态、芯片型号、流片与客户部署 |
 | Grayscale AI | 官网聚焦GPS拒止环境导航、定位、跟踪及事件感知；NATO DIANA与公开资料支持防务机器人方向 | 事件感知与自主系统公司；未发现自研芯片证据 | 使用的事件传感器／计算平台、客户和合同 |
 | Neurobus | 官网定位国防、航天的类脑AI与嵌入式硬件；公开项目强调检测与自主导航 | 系统集成与嵌入式方案线索；未证实自研ASIC | 处理器来源、硬件型号、部署、认证和收入 |
 | 同为智脑PSP、CelePixel及其他忆阻器／液态网络项目 | 仅有官网、项目或名单线索 | 继续放待核池，不因“类脑”名称计作独立芯片厂商 | 法律主体、产品型号、硅证据、客户与收入 |
 
-证据来源：[GrAI吸收合并工商记录](https://www.pappers.fr/entreprise/snap-group-sas-820920056)、[Snap Group 2024年报](https://www.pappers.fr/entreprise/snap-group-sas-820920056/comptes/SNAP%20GROUP%20SAS%20-%20Comptes%20sociaux%202024%2002-07-2025.pdf)、[Aspirare官网](https://www.aspirare.io/)、[Vivum官网](https://vivum.ai/)、[Grayscale AI官网](https://grayscale.ai/)、[Neurobus官网](https://neurobus.ai/)、[同为智脑官网](https://al-brain.com/)。
+证据来源：[GrAI吸收合并工商记录](https://www.pappers.fr/entreprise/snap-group-sas-820920056)、[Snap Group 2024年报](https://www.pappers.fr/entreprise/snap-group-sas-820920056/comptes/SNAP%20GROUP%20SAS%20-%20Comptes%20sociaux%202024%2002-07-2025.pdf)、[Aspirare官网](https://www.aspirare.io/)、[Aspirare专利公开US20260057197A1](https://patents.google.com/patent/US20260057197A1/en)、[Vivum官网](https://vivum.ai/)、[Grayscale AI官网](https://grayscale.ai/)、[Neurobus官网](https://neurobus.ai/)、[同为智脑官网](https://al-brain.com/)。
 
 传统替代池本轮已把Hailo、Ambiq、Synaptics、ST与NXP纳入矩阵；后续补查爱芯元智、瑞芯微、Renesas及Sony事件传感器生态，并继续核实这五家的终端design win、实际出货和收入。本版不对未核公司的最新规格或份额作结论。
 
@@ -236,9 +236,11 @@ Syntiant[当前产品阶段表](https://www.syntiant.com/platform/chips-and-hard
 | 2025年7月22日 | Hailo宣布Hailo-10H商业可用并接受全球订单 | [Hailo官网](https://hailo.ai/company-overview/news/hailo-10h-ai-accelerator-launch/)；建立可下单M.2与软件路径，不证明终端设计定点、销量或收入 |
 | 2月3日 | BrainChip宣布Pico可通过FPGA Cloud评估 | [公司公告](https://brainchip.com/press/brainchip-announces-immediate-availability-of-akida-pico-for-remote-evaluation-via-fpga-cloud/)；减少评估门槛，不代表实体芯片量产 |
 | 2月4日 | 本田投资Mythic并宣布联合开发车载SoC | [本田官网](https://global.honda/en/topics/2026/c_2026-02-04eng.html)；证明战略投入和联合研发，不等于当前车型定点或量产 |
+| 2月26日 | Aspirare模拟计算电路专利申请公开 | [US20260057197A1](https://patents.google.com/patent/US20260057197A1/en)将申请人／受让人列为14873891 Canada Inc. dba Aspirare；确认知识产权与主体映射，不证明芯片已流片、样片或量产 |
 | 2月5日 | Terranet签署首个防务评估协议 | [公司公告](https://terranet.se/en/press/terranet-signs-first-defence-evaluation-agreement/)；BlincVision使用Prophesee事件相机，协议与2026年MVP外部评估计划不等于量产订单或收入 |
 | 3月5日公告 | Innatera介绍Embedded World伙伴演示 | [公告](https://www.innatera.com/newsroom/neuromorphic-enters-the-mainstream-with-innateras-pulsar-chip-at-embedded-world-2026/)；场景包括烟雾、维护和雷达 |
 | 3月12日事件，3月26日页面时间 | Joya发布Pulsar驱动的EdgeCore音频模块 | [Innatera公告](https://www.innatera.com/newsroom/joya-design-takes-neuromorphic-chip-from-design-to-device-with-first-innatera-powered-consumer-audio-product-at-awe-china/)称模块可供OEM集成并在AWE展示；是客户模块，不等同终端产品批量出货 |
+| 3月17日 | Mythic下一代APU选用SST memBrain／SuperFlash | [Microchip公告](https://www.microchip.com/en-us/about/news-releases/products/mythic-selects-membrain-technology-from-sst-for-its-next-gen-ultra-low-power-apus)确认供应链／IP选型及40nm、28nm部署背景；120 TOPS/W与100倍GPU能效是合作方／厂商宣称，不能证明Vanguard已流片、送样或交付 |
 | 3月25日事件，3月26日网页；6月29日软件发布 | Innatera宣布并实际发布Synfire工具链 | [公告](https://www.innatera.com/newsroom/innatera-launches-synfire-to-unify-the-neuromorphic-ecosystem-and-accelerate-real-world-edge-ai-deployment/)原计划4月底全面可用；[PyPI 0.0.2](https://pypi.org/project/synfire/)为Beta、专有许可SDK／CLI并带Innatera GitHub发布证明，确认工具可安装，不证明活跃模型库或多硬件互操作已实现 |
 | 5月19日 | Mythic完成收购Videantis | [Mythic公告](https://www.mythic.ai/newsroom/Blog%20Post%20Title%20One-3zaa9-zlxng-67tfc-lbgbx)；补齐数字处理IP与量产软件经验。Videantis既有逾2500万颗芯片装机不能计作Mythic模拟APU出货 |
 | 5月19日 | BrainChip授予ASICLAND非独家Akida IP分销许可 | [BrainChip公告](https://brainchip.com/press/brainchip-and-asicland-partner-to-expand-neuromorphic-computing-access-across-global-asic-markets/)；允许评估与MPW，但每个生产客户仍需BrainChip批准并另付费，不代表量产客户或已确认收入 |
@@ -282,7 +284,8 @@ BrainChip截至2026年6月30日半年收入1222745美元，同比增长19%；许
 | Innatera／Joya | 2026年3月12日事件：Joya完成Pulsar驱动的EdgeCore可集成音频模块；6月22日Innatera官网明确称Joya为客户，并称Pulsar商业可用 | 客户模块／OEM评估与展会展示；强于单纯合作意向 | 终端产品零售、量产数量、合同金额和收入均未披露 |
 | Innatera／Synfire | 3月25日宣布，原计划4月底全面开放；PyPI显示0.0.2于6月29日发布，Beta状态、专有许可，发布证明指向Innatera私有GitHub仓库 | SDK与CLI公开可安装；不能继续写成“仅宣布未开放” | 模型库规模、活跃用户、硬件互操作实测与付费模式未知 |
 | Innatera／Akeana | 6月23日双方公告Akeana RISC-V处理器技术用于未来边缘AI方案 | 供应链／下一代架构合作，不是当前Pulsar已采用的证据 | IP型号、授权金额、投片节点与产品时间表未知 |
-| Mythic／M1／Honda | M1官网给出评估入口；本田2月4日称已投资并联合开发车载SoC；5月19日Mythic完成收购Videantis | M1处于可联系评估；Honda项目为未来联合开发；收购补强数字IP与软件，不证明模拟APU已量产上车 | M1库存、价格、客户数量、出货及收入；Honda量产节点、车型与合同金额未知 |
+| Mythic／M1／Vanguard／Starlight／Mead／Honda | M1官网给出评估入口；Vanguard明确计划2027可用并披露混合模拟／数字架构；3月17日Microchip确认下一代APU选用SST memBrain／SuperFlash；Starlight和Mead标注在研；本田投资／联合开发与Videantis收购另有官方证据 | M1为可联系评估；Vanguard、Starlight、Mead均按方案／研发记录，供应链选型高于概念描述但不是流片、样片或交付；Honda项目仍为未来联合开发 | Vanguard投片、样片、良率、客户和2027可用节点；Starlight集成传感器、Mead 3D NAND硅片；全系列价格、出货与收入未知 |
+| Aspirare／未命名模拟AI路线 | 官网给出模拟核心边缘AI定位；专利US20260057197A1公开申请人／受让人与模拟MAC电路 | 法律主体与知识产权路线已核，仍仅为方案／研发证据 | 芯片型号、流片、样片、制程、评估板、客户、融资和收入全部未知 |
 | Videantis（已被Mythic收购） | Mythic公告称其数字处理器IP已进入逾2500万颗芯片并在汽车项目运行 | 被收购资产有量产履历；该装机量属于Videantis数字IP，不能算作Mythic模拟APU销量 | 交易对价、装机客户、并购后产品整合与新增收入未知 |
 | MemryX／MX3与Cascade | MX3官网标为“可批量下单”；8月31日联合稿称Express LUCK已在日常生产线部署；6月扩展多形态Cascade模块 | 从“在产但客户未知”上调为具名工厂部署／批量订购入口 | 部署数量、模块型号、采购金额、复购、毛利和收入未知；稿件由厂商发布，未见审计披露 |
 | Aspinity／AML100与AML200 | 当前官网将AML100列为正在出货的生产IC并提供Python SDK；AML200明确为开发中、测试芯片已验证 | AML100为生产／联系式评估；AML200仅测试芯片，二者阶段不能合并 | AML100具名客户、库存、出货量及收入；AML200量产时间和设计定点未知 |
@@ -323,7 +326,7 @@ BrainChip截至2026年6月30日半年收入1222745美元，同比增长19%；许
 
 4. **Dynamic State Processor需要单独的任务比较。**应分别看可编程状态、时间尺度、在线适应、传感融合、控制闭环与工具支持。尚未完成同任务实测，不能宣布其优于这些路线。
 
-5. **最危险的替代方案可能没有类脑标签。**MemryX已有具名工厂部署与批量订购入口；ST、NXP开发硬件及Synaptics、Hailo、Ambiq的购买路径又把MCU／DSP／NPU生态压力具体化；Aspinity AML100为生产模拟前端，Mythic通过本田联合开发和Videantis收购补足车载与软件能力。对芯灵而言，仅证明DSP更低功耗或“类脑”不足以形成采购理由；必须在同一任务上证明时间状态建模、在线适应、传感融合、闭环响应、软件迁移和整机成本的净优势。这是基于公开证据的竞争分析，不是市场份额结论。
+5. **最危险的替代方案可能没有类脑标签。**MemryX已有具名工厂部署与批量订购入口；ST、NXP开发硬件及Synaptics、Hailo、Ambiq的购买路径又把MCU／DSP／NPU生态压力具体化；Aspinity AML100为生产模拟前端，Mythic又公开Vanguard 2027混合APU、Starlight感知集成和Mead 3D NAND路线，并获得SST供应链选型确认；但这些新增路线仍未到流片、样片或客户阶段。Aspirare也已有可追溯专利而无硅证据。对芯灵而言，仅证明DSP更低功耗或“类脑”不足以形成采购理由；必须在同一任务上证明时间状态建模、在线适应、传感融合、闭环响应、软件迁移和整机成本的净优势。这是基于公开证据的竞争分析，不是市场份额结论。
 
 事实依据来自前述竞争矩阵中的官方产品和系统资料；此节为分析性推论。
 
@@ -337,7 +340,7 @@ BrainChip截至2026年6月30日半年收入1222745美元，同比增长19%；许
 
 每项新增记录至少保留：主体、产品、技术分类、应用、事件日期、发布日期、检索日期、来源URL、证据状态、性能测试边界和未知项。合并重复报道，纠正旧结论，标记撤回与停止销售。性能统一记录准确率、输入、时延、计算核心与整机功耗、制程、模型、在线学习范围和代码可获得性。
 
-**下一轮优先缺口：**轮换至模拟AI、存算与数据流，优先核实Mythic M1实际评估／客户、Rain自有芯片时间表、REEXEN HBF与ADA300／400硅证据、MemryX具名部署规模及Aspirare真实ASIC；事件视觉保留Hearth迁移文档、GenX320补货、Aeveon／Speck实际供货和事件数据进入世界模型训练／部署的未决项。核心芯片继续跟踪芯灵自身量产／付费客户基线、SpiNNcloud采购支付／收入／规模化训练、Innatera终端出货；国内世界模型继续核实具脑磐石具名付费客户／模组SKU／节能实测、最终序列ASIC与收入来源、WorldMind产品、羲悉客户验证。
+**下一轮优先缺口：**轮换至机器人触觉与多模态，优先核实他山E10A量产／客户／收入、视触方案验收、机器人本体闭环部署及事件触觉数据进入世界模型训练的证据。模拟AI继续跟踪Mythic Vanguard投片／样片／2027交付、Starlight集成传感器、Mead 3D NAND硅片、Rain自有芯片、REEXEN HBF／ADA300／400交付与Aspirare真实ASIC；核心芯片继续核实芯灵自身量产／付费客户基线、SpiNNcloud采购支付／收入、Innatera终端出货。
 
 ### 更新日志
 
@@ -374,3 +377,5 @@ BrainChip截至2026年6月30日半年收入1222745美元，同比增长19%；许
 2026年10月2日核心芯片科研部署与公开软件专题：修正SpiNNcloud仅“商业可用／研究训练平台”的覆盖不足。Sandia使用方确认2025年3月Braunfels到货和部署、已开展热流随机游走模拟；莱比锡确认2025年10月系统运行。约400万欧元为科研基础设施资助，不计供应商收入；药物项目为int8 DNN，不并入SNN训练。新增py-spinnaker2 v0.8.2标签与公开Docker镜像证据，标签关联提交日9月23日与首推日分开。主矩阵、应用表、商业锚点、P033、T018–T020及35主体／33产品／20事件图表同步。覆盖英文客户机构、德文大学、ScaDS.AI项目、官方GitLab／文档／Docker Hub；无独立实机复现。对芯灵影响：通用动态状态定位须与已部署的混合计算及数值任务竞争，不能只凭SNN标签。缺口：合同支付、供应商收入、复购、规模化训练、同任务整机功耗和世界模型事件数据。下轮转向事件视觉，核实Hearth迁移、芯片供货与世界模型使用实证。
 
 2026年10月2日事件视觉与多模态采集模组复核：新增P034——[OpenMV多光谱事件相机模组](https://openmv.io/products/multispectral-event-camera-module)公开500美元价格、SKU与规格，把Prophesee GENX320事件流和PAG7936 1MP／120 FPS彩色全局快门同步集成，仅兼容OpenMV N6；检索时库存0并明确售罄，故单列“商品页／售罄”，不写成当前可采购、已出货或终端量产。[400美元GENX320模组](https://openmv.io/products/genx320-camera-module)同样仍售罄。SynSense Aeveon只新增日本分销商询价入口和两页宣传目录，仍无公开数据表、开发板、价格、库存或具名客户；Speck可读到2025年12月更新的开发套件手册，但未核到当前库存。Prophesee 5.3.1文档仍在线、资源页仍指向OpenEB，不改变公司2026年6月15日已宣布OpenEB与独立Metavision SDK结束生命周期的判断；Hearth公开迁移包仍未找到。世界模型检索中，EA-WM的“event-aware”指视频时序差分，不是事件相机数据，未计作类脑／事件视觉采用。对芯灵影响：事件流＋彩色帧的同步采集已有明确商品化集成入口，传感融合本身不是空白；但售罄、无客户和无训练实证意味着竞争压力主要在开发生态，不足以证明规模化市场。缺口：OpenMV补货与历史出货、终端设计定点、Hearth迁移、Aeveon／Speck供货、事件数据进入世界模型训练或闭环部署的具名证据。下轮转向模拟AI、存算与数据流。
+
+2026年10月2日模拟AI／存算／数据流复核：Mythic由“M1＋车载合作／收购”扩展为可追溯的多路线产品组合。新增P035 Vanguard——官网明确计划2027可用，采用GF 28nm模拟die＋TSMC N5A数字die；3月17日Microchip／SST另行确认下一代APU选用memBrain／SuperFlash，新增T021。新增P036 Starlight——标注在研，页面展示720P低照度处理运行于M1硅片，但未证明光电阵列与APU已完成混合键合集成。新增P037 Mead——标注在研的3D NAND大模型路线，100B+参数与低于1W均为公司目标，未见硅片。Aspirare由待核线索上调为相邻替代主体C036：US20260057197A1于2月26日公开，申请人／受让人列为14873891 Canada Inc. dba Aspirare，确认模拟MAC知识产权与主体映射，新增P038和T022；专利不等于流片、样片或量产。Rain仍只确认数字CIM IP可授权、自有硬件“即将可用”；REEXEN官网明确HBF是NAND近计算容量层、与SRAM-CIM不是同一种器件，且公司用语仍是“探索”，不计交付。对芯灵影响：Mythic已形成模拟die、数字控制、传感融合和大模型存储的系统级路线，供应链可信度上升；但新增产品仍停留研发，没有客户、样片、出货或收入，当前压力主要是路线与生态，不足以改写量产竞争排序。缺口：Vanguard投片／样片与2027节点、Starlight集成传感器、Mead 3D NAND硅片、Aspirare ASIC、Rain硬件和REEXEN新系统交付。下轮转向机器人触觉与多模态。

@@ -55,7 +55,7 @@
       "relation": "事件视觉硬件、系统和工具链直接替代",
       "url": "https://www.prophesee.ai/event-based-camera-partners/",
       "source": "Prophesee、IDS、LUCID与OpenMV官方产品／商店页；Prophesee资源与迁移公告，检索2026-10-02；事实、厂商宣称、分析和未知分列",
-      "fresh": true,
+      "fresh": false,
       "id": "C004",
       "retrieved": "2026-10-02",
       "classification": "报告分层（分析）",
@@ -419,14 +419,14 @@
     },
     {
       "group": "相邻替代",
-      "route": "M1模拟CIM APU；未来Vanguard混合路线；Videantis数字处理IP",
-      "fact": "M1官网提供评估入口；本田2026-02-04称已投资并联合开发车载SoC；Mythic 2026-05-19完成收购Videantis",
-      "gap": "Honda项目是未来联合开发，不是当前量产定点；Videantis逾2500万颗芯片装机属于数字IP，不能追溯为Mythic模拟APU出货",
-      "relation": "车载、机器人、视觉与边缘AI的重要模拟CIM竞争者",
-      "url": "https://global.honda/en/topics/2026/c_2026-02-04eng.html",
-      "source": "本田官方、Mythic M1与收购公告，检索2026-10-02",
+      "route": "M1模拟CIM APU；Vanguard混合模拟／数字APU；Starlight传感集成；Mead 3D NAND大模型路线；Videantis数字IP",
+      "fact": "M1可申请评估；Vanguard计划2027可用并披露GF 28nm模拟die＋TSMC N5A数字die；Microchip／SST确认下一代APU选用memBrain／SuperFlash；Starlight与Mead均标注在研",
+      "gap": "Vanguard未见投片、样片、客户或交付；Starlight现有演示运行于M1硅片，未证实集成传感器；Mead未见3D NAND硅片。所有高能效数字均为厂商口径",
+      "relation": "从边缘模拟CIM扩展至混合APU、传感融合和大模型存储路线；系统级竞争增强但成熟度仍以M1评估为锚",
+      "url": "https://www.mythic.ai/vanguard",
+      "source": "Mythic产品页与Microchip／SST 2026-03-17公告，检索2026-10-02；供应链选型不等于流片",
       "name": "Mythic",
-      "fresh": false,
+      "fresh": true,
       "id": "C027",
       "retrieved": "2026-10-02",
       "classification": "报告分层（分析）",
@@ -551,6 +551,21 @@
       "retrieved": "2026-10-02",
       "classification": "模型／系统层（分析）",
       "publication": "2026-09-28"
+    },
+    {
+      "id": "C036",
+      "name": "Aspirare Semi",
+      "group": "相邻替代",
+      "route": "未命名模拟AI芯片与模拟MAC知识产权",
+      "fact": "官网给出模拟核心边缘AI定位；US20260057197A1于2026-02-26公开，申请人／受让人列为14873891 Canada Inc. dba Aspirare",
+      "gap": "专利和网站不等于ASIC；型号、流片、样片、制程、数据表、评估板、代工、客户、融资与收入未知",
+      "relation": "模拟AI早期长尾；目前只形成知识产权与主体映射证据",
+      "url": "https://patents.google.com/patent/US20260057197A1/en",
+      "source": "Aspirare官网、公开专利记录；检索2026-10-02",
+      "fresh": true,
+      "retrieved": "2026-10-02",
+      "classification": "报告分层（分析）",
+      "publication": "2026-02-26"
     }
   ],
   "products": [
@@ -987,6 +1002,54 @@
       "retrieved": "2026-10-02",
       "url": "https://openmv.io/products/multispectral-event-camera-module",
       "gap": "页面未标发布日期；售罄不等于已核实出货、补货或终端量产。仅兼容OpenMV N6；无销量、客户、收入或世界模型训练证据"
+    },
+    {
+      "id": "P035",
+      "company": "Mythic",
+      "product": "Vanguard",
+      "stage": "方案／研发",
+      "evidence": "官方产品页明确计划2027可用；混合模拟／数字架构；Microchip确认下一代APU的memBrain／SuperFlash选型",
+      "publication": null,
+      "event": "2026-03-17",
+      "retrieved": "2026-10-02",
+      "url": "https://www.mythic.ai/vanguard",
+      "gap": "未见投片、样片、良率、价格、客户或交付；120 TOPS/W与比较倍数为厂商口径"
+    },
+    {
+      "id": "P036",
+      "company": "Mythic",
+      "product": "Project Starlight",
+      "stage": "方案／研发",
+      "evidence": "官方标注IN DEVELOPMENT；720P低照度演示运行于M1硅片",
+      "publication": null,
+      "event": null,
+      "retrieved": "2026-10-02",
+      "url": "https://www.mythic.ai/starlight",
+      "gap": "M1演示不证明光电阵列与APU已完成混合键合集成；未见样片、数据表、客户或交付"
+    },
+    {
+      "id": "P037",
+      "company": "Mythic",
+      "product": "Mead",
+      "stage": "方案／研发",
+      "evidence": "官方标注IN DEVELOPMENT的3D NAND模拟CIM大模型路线",
+      "publication": null,
+      "event": null,
+      "retrieved": "2026-10-02",
+      "url": "https://www.mythic.ai/mead",
+      "gap": "未见3D NAND硅片、封装、样片或客户；100B+参数和低于1W均为公司目标"
+    },
+    {
+      "id": "P038",
+      "company": "Aspirare Semi",
+      "product": "未命名模拟AI芯片路线",
+      "stage": "方案／研发",
+      "evidence": "官网产品定位＋US20260057197A1模拟MAC电路公开",
+      "publication": "2026-02-26",
+      "event": "2026-02-26",
+      "retrieved": "2026-10-02",
+      "url": "https://patents.google.com/patent/US20260057197A1/en",
+      "gap": "专利不等于实现；无型号、流片、样片、制程、数据表、客户或收入"
     }
   ],
   "stages": [
@@ -1005,11 +1068,15 @@
   "counts": [
     {
       "label": "方案／研发",
-      "value": 3,
+      "value": 7,
       "ids": [
         "P004",
         "P018",
-        "P021"
+        "P021",
+        "P035",
+        "P036",
+        "P037",
+        "P038"
       ]
     },
     {
@@ -1179,6 +1246,16 @@
       "retrieved": "2026-10-02"
     },
     {
+      "id": "T022",
+      "date": "2026-02-26",
+      "published": "2026-02-26",
+      "retrieved": "2026-10-02",
+      "name": "Aspirare Semi",
+      "event": "模拟计算电路专利申请公开",
+      "boundary": "确认主体与知识产权路线，不证明ASIC实现、量产或收入",
+      "url": "https://patents.google.com/patent/US20260057197A1/en"
+    },
+    {
       "date": "2026-03-12",
       "published": "2026-03-26",
       "name": "Innatera／Joya",
@@ -1187,6 +1264,16 @@
       "url": "https://www.innatera.com/newsroom/joya-design-takes-neuromorphic-chip-from-design-to-device-with-first-innatera-powered-consumer-audio-product-at-awe-china/",
       "id": "T002",
       "retrieved": "2026-10-02"
+    },
+    {
+      "id": "T021",
+      "date": "2026-03-17",
+      "published": "2026-03-17",
+      "retrieved": "2026-10-02",
+      "name": "Mythic／Microchip SST",
+      "event": "下一代APU选择memBrain／SuperFlash",
+      "boundary": "供应链／IP选型，不证明Vanguard流片、样片或交付；能效数字为厂商宣称",
+      "url": "https://www.microchip.com/en-us/about/news-releases/products/mythic-selects-membrain-technology-from-sst-for-its-next-gen-ultra-low-power-apus"
     },
     {
       "date": "2026-05-19",
@@ -1364,7 +1451,7 @@
       "retrieved": "2026-10-02"
     }
   ],
-  "snapshotTime": "2026-10-02 19时事件视觉与多模态采集模组核查",
+  "snapshotTime": "2026-10-02 19时模拟AI、存算与数据流复核",
   "liquidity": [
     {
       "label": "首批AKD1500生产批次",

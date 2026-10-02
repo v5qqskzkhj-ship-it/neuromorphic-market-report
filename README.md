@@ -3,7 +3,7 @@
 快照日期：2026年10月2日。当前覆盖36个主体、38组产品证据、22项关键事件、6项并购／整合和2项研究记录。统计是报告样本，不代表市场规模或份额。
 
 - [完整中文报告](REPORT.md)
-- [交互竞争地图](dashboard.html)
+- [手机友好的交互报告](https://v5qqskzkhj-ship-it.github.io/neuromorphic-market-report/#overview)：可点击汇总图表、主体和产品筛选、证据详情、最多三个主体对比。
 - [可追溯Excel](market-evidence.xlsx)
 - [结构化证据JSON](evidence.json)
 

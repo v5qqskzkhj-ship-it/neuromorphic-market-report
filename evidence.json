@@ -50,8 +50,8 @@
       "name": "Prophesee",
       "group": "硬件与平台",
       "route": "事件视觉传感、软件、伙伴相机生态及Mantara整机",
-      "fact": "Sony IMX636／637伙伴相机已有现货、系列生产或发货证据。OpenMV同时列出400美元GENX320模组与500美元多光谱事件相机模组；后者把GENX320与1MP／120 FPS彩色全局快门传感器同步集成，检索时两款均售罄。6月推出Mantara与Hearth。",
-      "gap": "事件相机生态已越过样片，但商品页、价格和售罄状态不等于当前供货、销量、终端采用或Prophesee收入。多光谱模组证明事件流与彩色帧已有现成集成入口，不证明世界模型训练或SNN芯片采用；Mantara仅有公司现场验证口径。OpenEB仍公开，但公司已宣布OpenEB与独立Metavision SDK结束生命周期；Hearth公开迁移包和客户部署待核。",
+      "fact": "Sony IMX636／637伙伴相机已有现货、系列生产或发货证据。法国工商／BODACC转载记录显示公司于2024年10月进入司法重整，法院在2026年5月5日批准重整计划；6月15日公司宣布2000万欧元融资并推出Mantara与Hearth，转向事件传感器、软件和反无人机全栈系统。",
+      "gap": "重整计划获批和融资说明公司继续经营，但融资不等于收入或经营风险消失。事件相机商品页、价格和伙伴发货不等于Prophesee传感器销量、终端采用或收入；Mantara商业化与现场验证为公司口径，缺具名采购、部署数量、合同和验收。OpenEB与独立Metavision SDK已宣布结束生命周期；Hearth公开迁移包仍未找到。",
       "relation": "事件视觉硬件、系统和工具链直接替代",
       "url": "https://www.prophesee.ai/event-based-camera-partners/",
       "source": "Prophesee、IDS、LUCID与OpenMV官方产品／商店页；Prophesee资源与迁移公告，检索2026-10-02；事实、厂商宣称、分析和未知分列",
@@ -613,6 +613,21 @@
       "retrieved": "2026-10-02",
       "classification": "报告分层（分析）",
       "publication": "2026-07-16"
+    },
+    {
+      "id": "C038",
+      "name": "ModelCat（原Eta Compute）",
+      "group": "相邻替代",
+      "route": "硬件感知的边缘AI模型构建、重定向与实机验证软件",
+      "fact": "Eta Compute于2025年8月宣布更名ModelCat；当前官网和公司说明把核心定位转为AI-in-the-Loop模型构建平台。NXP官方资料将eIQ Model Creator列为ModelCat合作产品，并明确该工具采用订阅收费。",
+      "gap": "当前公开产品是软件平台，不是自研神经拟态芯片；历史ECM3532／TENSAI硅片不能当作当前芯片供应。订阅入口和合作关系不证明客户规模、收入或模型性能宣称。",
+      "relation": "从神经拟态／超低功耗芯片路线退出到传统MCU／NPU工具链，既是路线退出案例，也是芯灵软件与模型迁移能力的相邻替代",
+      "url": "https://modelcat.ai/blog/why-we-changed-our-name-to-modelcat",
+      "source": "ModelCat更名与当前产品说明、NXP eIQ FAQ；检索2026-10-02",
+      "fresh": true,
+      "retrieved": "2026-10-02",
+      "classification": "相邻软件替代／历史芯片路线转向（分析）",
+      "publication": "2025-08-28"
     }
   ],
   "products": [
@@ -1117,6 +1132,18 @@
       "retrieved": "2026-10-02",
       "gap": "模型和1000小时数据集均为公司口径；未见权重、代码、统一任务成功率、公开下载或工业验收。不是SNN／芯片产品。",
       "url": "https://www.xenserobotics.com/article/387/detail/25"
+    },
+    {
+      "id": "P040",
+      "company": "ModelCat／NXP",
+      "product": "eIQ Model Creator",
+      "stage": "开发平台",
+      "evidence": "ModelCat官方发布与NXP eIQ资料交叉确认当前软件、支持NXP MCU／MPU系列及订阅收费入口",
+      "publication": "2025-09-09",
+      "event": "2025-09-08",
+      "retrieved": "2026-10-02",
+      "url": "https://modelcat.ai/blog/modelcat-tm-launches-eiq-r-model-creator-to-turbocharge-ai-model-development-for-nxp-devices",
+      "gap": "软件可用与订阅收费不等于已核客户数量或收入；生成模型指标为厂商宣称。ModelCat当前无自研SNN／类脑芯片证据"
     }
   ],
   "stages": [
@@ -1174,9 +1201,10 @@
     },
     {
       "label": "开发平台",
-      "value": 1,
+      "value": 2,
       "ids": [
-        "P003"
+        "P003",
+        "P040"
       ]
     },
     {
@@ -1250,7 +1278,7 @@
     },
     {
       "label": "相邻替代",
-      "value": 19
+      "value": 20
     }
   ],
   "financial": [
@@ -1272,6 +1300,16 @@
   ],
   "events": [
     {
+      "id": "T028",
+      "date": "2024-10-15",
+      "published": "2024-10-31",
+      "retrieved": "2026-10-02",
+      "name": "Prophesee",
+      "event": "法国法院启动司法重整程序",
+      "boundary": "工商／BODACC转载记录确认2024-09-17停止付款、10月15日启动重整；2026-05-05法院批准重整计划。重整不等于清算或公司退出，融资与后续经营需分开记录",
+      "url": "https://www.pappers.fr/entreprise/prophesee-800681892"
+    },
+    {
       "id": "T018",
       "date": null,
       "eventMonth": "2025-03",
@@ -1291,6 +1329,16 @@
       "event": "Hailo-10H商业可用并接受全球订单",
       "boundary": "厂商GA与订单入口；不等于终端设计定点、销量或收入",
       "url": "https://hailo.ai/company-overview/newsroom/news/hailo-announces-general-availability-of-hailo-10h-edge-ai-accelerator-with-generative-ai-capabilities/"
+    },
+    {
+      "id": "T029",
+      "date": "2025-08-28",
+      "published": "2025-08-28",
+      "retrieved": "2026-10-02",
+      "name": "Eta Compute／ModelCat",
+      "event": "更名并转向AI-in-the-Loop模型构建软件",
+      "boundary": "当前ModelCat和NXP资料确认软件与订阅产品；历史超低功耗神经拟态芯片履历不能当作当前自研硅供应",
+      "url": "https://modelcat.ai/blog/why-we-changed-our-name-to-modelcat"
     },
     {
       "id": "T019",
@@ -1396,8 +1444,8 @@
     {
       "date": "2026-06-15",
       "name": "Prophesee",
-      "event": "Mantara／Hearth发布",
-      "boundary": "厂商现场验证与软件迁移公告",
+      "event": "Mantara／Hearth发布并宣布2000万欧元融资",
+      "boundary": "司法重整计划获批后，公司转向反无人机全栈系统并融资；现场验证、商业化与迁移兼容为厂商口径。融资不等于收入，未见具名采购、合同、验收或部署数量",
       "url": "https://www.prophesee.ai/2026/06/15/prophesee-launches-mantara-event-based-drone-detection/",
       "id": "T004",
       "published": "2026-06-15",
@@ -1638,7 +1686,7 @@
       ]
     }
   ],
-  "snapshotTime": "2026-10-02T22:31:33+08:00",
+  "snapshotTime": "2026-10-02T23:09:23+08:00",
   "liquidity": [
     {
       "label": "首批AKD1500生产批次",
@@ -1687,11 +1735,25 @@
       "url": "https://www.synsense.ai/synsense-and-inivation-join-forces-to-form-leading-neuromorphic-technology-provider/"
     },
     {
+      "date": "2024-10-15／2026-05-05",
+      "subject": "Prophesee司法重整 → 持续经营与全栈转向",
+      "status": "2024年启动司法重整；2026年5月法院批准重整计划，6月公司宣布2000万欧元融资",
+      "boundary": "不是收购或清算；融资不计收入。经营恢复、Mantara商业化和长期偿付情况仍需持续跟踪",
+      "url": "https://www.pappers.fr/entreprise/prophesee-800681892"
+    },
+    {
       "date": "2024-12-30",
       "subject": "Knowles消费MEMS麦克风 → Syntiant",
       "status": "已完成；1.5亿美元现金加股票",
       "boundary": "2.56亿美元为被收购业务2023收入，不是NDP芯片收入",
       "url": "https://www.syntiant.com/press-release/syntiant-completes-acquisition-of-knowles-consumer-mems-microphone-division/"
+    },
+    {
+      "date": "2025-08-28",
+      "subject": "Eta Compute → ModelCat路线转向",
+      "status": "更名并把核心产品转为硬件感知的模型构建软件；NXP eIQ Model Creator采用订阅收费",
+      "boundary": "不是公司退出；但已无当前自研神经拟态芯片产品证据，不再计活跃芯片供应商",
+      "url": "https://modelcat.ai/blog/why-we-changed-our-name-to-modelcat"
     },
     {
       "date": "2026-05-19",

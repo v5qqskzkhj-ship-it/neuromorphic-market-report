@@ -52,7 +52,8 @@ function buildLandscape(){
   const regionalBase=d.company.filter(c=>(!monthOwners||monthOwners.has(c.id))&&(!state.stage||d.products.some(p=>p.stage===state.stage&&matchesCompany(c,p.company))));
   matrix(panes.matrix,'哪些板块在不同区位聚集？',regions,(s,r)=>regionalBase.filter(c=>reg(c)===r&&sects(c).includes(s)).length,'region','覆盖主体数');
   const productBase=d.products.filter(p=>owners(p).some(c=>(!state.region||reg(c)===state.region)&&(!monthOwners||monthOwners.has(c.id))));
-  matrix(panes.chain,'哪些板块有更成熟的产品证据？',[...new Set(d.products.map(p=>p.stage))],(s,st)=>productBase.filter(p=>p.stage===st&&owners(p).some(c=>sects(c).includes(s))).length,'stage','产品证据条数');
+  matrix(panes.chain,'所属主体板块与产品证据阶段',[...new Set(d.products.map(p=>p.stage))],(s,st)=>productBase.filter(p=>p.stage===st&&owners(p).some(c=>sects(c).includes(s))).length,'stage','产品证据条数');
+  panes.chain.append(el('p','产品按所属主体的板块归集，不表示每项产品已在该应用部署。IP、开发平台与客户采购属于不同证据类型，不构成统一成熟度排名。','meta'));
   count.textContent='联动证据 · '+cs.length+' 企业 / '+ps.length+' 产品 / '+es.length+' 事件';resultTabs.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.result===resultType)));const rows=({company:cs,products:ps,events:es})[resultType];list.replaceChildren(...rows.map(x=>{const n=card(x,resultType);if(resultType==='company'){const tags=el('p',null,'meta');tags.textContent=reg(x)+' · '+sects(x).join(' / ');n.insertBefore(tags,n.querySelector('.card-actions'));}return n;}));if(!rows.length)list.append(el('p','该组合暂无已收录证据。可清除条件查看其他板块。','empty'));
  }
  notes.append(link('https://v5qqskzkhj-ship-it.github.io/neuromorphic-market-report/landscape-taxonomy.json','下载分析分类与主体编号映射'));

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "snapshot": "2026-10-03T00:07:49+08:00",
+  "basis": "仅重组既有证据，不增加市场事实。分组使用当前分析标签；线段是时间参照，不表示存续期、收入或持续出货。外部关联方不计竞争主体。关系方向按类型理解，不统一解释为资金流。",
+  "primarySector": {"C001":"通用端侧／计算工具链","C002":"常开感知／音频","C003":"事件视觉／高速感知","C004":"事件视觉／高速感知","C005":"科研／神经动力学","C006":"通用端侧／计算工具链","C007":"科研／神经动力学","C008":"科研／神经动力学","C009":"机器人／触觉／闭环","C010":"科研／神经动力学","C011":"机器人／触觉／闭环","C012":"大模型／世界模型","C013":"机器人／触觉／闭环","C014":"大模型／世界模型","C015":"大模型／世界模型","C016":"工业检测／监测","C017":"常开感知／音频","C018":"常开感知／音频","C019":"常开感知／音频","C020":"通用端侧／计算工具链","C021":"通用端侧／计算工具链","C022":"通用端侧／计算工具链","C023":"通用端侧／计算工具链","C024":"通用端侧／计算工具链","C025":"通用端侧／计算工具链","C026":"常开感知／音频","C027":"通用端侧／计算工具链","C028":"通用端侧／计算工具链","C029":"通用端侧／计算工具链","C030":"通用端侧／计算工具链","C031":"通用端侧／计算工具链","C032":"通用端侧／计算工具链","C033":"通用端侧／计算工具链","C034":"常开感知／音频","C035":"大模型／世界模型","C036":"常开感知／音频","C037":"机器人／触觉／闭环","C038":"通用端侧／计算工具链"},
+  "eventTypes":{"T028":"战略／整合","T018":"客户／部署","T012":"产品／研发","T029":"战略／整合","T019":"客户／部署","T001":"融资","T026":"客户／部署","T022":"产品／研发","T002":"产品／研发","T021":"合作／IP","T025":"战略／整合","T003":"战略／整合","T013":"合作／IP","T004":"融资","T005":"产品／研发","T023":"产品／研发","T010":"产品／研发","T015":"战略／整合","T006":"产品／研发","T014":"合作／IP","T030":"产品／研发","T024":"产品／研发","T011":"合作／IP","T027":"融资","T007":"客户／部署","T017":"产品／研发","T008":"合作／IP","T020":"产品／研发","T016":"战略／整合","T009":"产品／研发"},
+  "consolidationOwners":{"0":["X-GRAI","X-SNAP"],"1":["X-INIVATION","C003"],"2":["C004"],"3":["X-KNOWLES","C026"],"4":["C038"],"5":["X-VIDEANTIS","C027"],"6":["X-SCENIX","C035"],"7":["C035","X-AMD"]},
+  "partners":{"X-GRAI":"GrAI Matter Labs","X-SNAP":"Snap","X-INIVATION":"iniVation 子公司","X-KNOWLES":"Knowles 消费MEMS业务","X-VIDEANTIS":"Videantis","X-SCENIX":"SceniX","X-AMD":"AMD","X-HONDA":"Honda","X-SST":"Microchip SST","X-ASICLAND":"ASICLAND","X-ORAMA":"Orama.AOI","X-JOYA":"Joya","X-LUCK":"Express LUCK","X-SANDIA":"Sandia","X-LEIPZIG":"莱比锡大学","X-JUELICH":"Forschungszentrum Jülich","C031":"NXP"},
+  "relations":[
+    {"from":"X-GRAI","to":"X-SNAP","consolidation":0,"type":"战略／整合","label":"工商交易与吸收合并记录"},
+    {"from":"X-INIVATION","to":"C003","consolidation":1,"type":"战略／整合","label":"100%股份收购；实体继续运营"},
+    {"from":"X-KNOWLES","to":"C026","consolidation":3,"type":"战略／整合","label":"消费MEMS业务收购已完成"},
+    {"from":"X-HONDA","to":"C027","event":"T001","type":"融资","label":"投资与联合研发"},
+    {"from":"X-SST","to":"C027","event":"T021","type":"合作／IP","label":"APU选择memBrain／SuperFlash"},
+    {"from":"X-SST","to":"C028","event":"T008","type":"合作／IP","label":"首代处理器选用memBrain SAGE"},
+    {"from":"X-ASICLAND","to":"C001","event":"T013","type":"合作／IP","label":"Akida IP分销许可"},
+    {"from":"X-ORAMA","to":"C001","event":"T014","type":"合作／IP","label":"工业检测参考部署合作"},
+    {"from":"X-JOYA","to":"C002","event":"T002","type":"合作／IP","label":"EdgeCore集成Pulsar"},
+    {"from":"X-LUCK","to":"C022","event":"T007","type":"客户／部署","label":"生产线部署"},
+    {"from":"X-SANDIA","to":"C005","event":"T018","type":"客户／部署","label":"科研系统到货部署"},
+    {"from":"X-LEIPZIG","to":"C005","event":"T019","type":"客户／部署","label":"科研系统投入运行"},
+    {"from":"X-JUELICH","to":"C005","event":"T026","type":"客户／部署","label":"336万欧元公共采购合同"},
+    {"from":"X-VIDEANTIS","to":"C027","event":"T003","type":"战略／整合","label":"收购完成"},
+    {"from":"X-SCENIX","to":"C035","event":"T015","type":"战略／整合","label":"机器人仿真业务并入"},
+    {"from":"C035","to":"X-AMD","event":"T016","type":"战略／整合","label":"已签收购协议，尚待交割"},
+    {"from":"C038","to":"C031","product":"P040","type":"合作／IP","label":"eIQ Model Creator订阅软件"}
+  ]
+}

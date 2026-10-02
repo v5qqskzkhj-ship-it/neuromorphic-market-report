@@ -60,5 +60,6 @@ function buildLandscape(){
  draw();
 }
 buildLandscape();
+buildCompanyHistory(d,el,recordDetail,show,sourceLinks,matchesCompany);
 const start=location.hash.slice(1);go(['company','products','events','research'].includes(start)?start:'overview');
 })();

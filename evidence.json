@@ -135,17 +135,27 @@
     {
       "name": "Intel",
       "group": "硬件与平台",
-      "route": "Loihi2、Lava、Hala Point",
-      "fact": "官方核实Hala Point使用1152颗Loihi2并部署Sandia研究",
-      "gap": "研究平台；本轮未获得足够官方证据确认Loihi3量产",
-      "relation": "科研平台",
-      "url": "https://www.intc.com/news-events/press-releases/detail/1691/intel-builds-worlds-largest-neuromorphic-system-to",
-      "source": "官网或机构证据；详见主报告",
-      "fresh": false,
+      "route": "Loihi2、Hala Point；归档Lava与下一代SDK路线",
+      "fact": "Lava官方仓库显示2026-05-13归档、只读。Intel停止承诺维护，README公告下一代Loihi架构与新SDK开发；Hala Point研究部署维持。",
+      "gap": "归档为事实，下一代架构／SDK为路线宣称；未核实新SDK交付、迁移兼容、Loihi3量产或付费客户。不能推断Intel退出类脑。",
+      "relation": "科研平台、学习能力与工具链竞争；维护风险与交付能力需分开比较",
+      "url": "https://github.com/lava-nc/lava",
+      "source": "Intel Lava官方仓库与Intel研究官网；检索2026-10-02",
+      "fresh": true,
       "id": "C008",
       "retrieved": "2026-10-02",
       "classification": "报告分层（分析）",
-      "publication": null
+      "publication": null,
+      "sources": [
+        {
+          "label": "Lava归档与下一代路线公告",
+          "url": "https://github.com/lava-nc/lava"
+        },
+        {
+          "label": "Intel研究官网",
+          "url": "https://www.intel.com/content/www/us/en/research/neuromorphic-computing.html"
+        }
+      ]
     },
     {
       "name": "他山科技",
@@ -566,6 +576,21 @@
       "retrieved": "2026-10-02",
       "classification": "报告分层（分析）",
       "publication": "2026-02-26"
+    },
+    {
+      "id": "C037",
+      "name": "千觉机器人 Xense Robotics",
+      "group": "模型与系统",
+      "route": "多模态触觉传感器、XTacFlow数采、TacVerse 1k与X-TouchMind V1 VTLA模型",
+      "fact": "2026-07-16公司发布X-TouchMind V1与TacVerse 1k；官方说明模型统一视觉、语言、触觉、动作和本体状态。WAIC现场报道记录双臂折纸盒受扰后继续完成和耳机装配演示。",
+      "gap": "属于触觉模型／系统层，不是SNN芯片证据。模型权重、代码、统一成功率、工业客户验收与收入未披露；官方原计划7月30日起开放数据申请，但本轮未检索到可核的Hugging Face／魔搭公开下载页。",
+      "relation": "触觉世界模型与系统竞争；对事件类脑芯片既可能形成下游入口，也会以传统传感器＋主流计算替代专用芯片",
+      "url": "https://www.xenserobotics.com/article/387/detail/25",
+      "source": "千觉公司一手发布；中国经营报／WAIC现场报道；检索2026-10-02",
+      "fresh": true,
+      "retrieved": "2026-10-02",
+      "classification": "报告分层（分析）",
+      "publication": "2026-07-16"
     }
   ],
   "products": [
@@ -1050,6 +1075,18 @@
       "retrieved": "2026-10-02",
       "url": "https://patents.google.com/patent/US20260057197A1/en",
       "gap": "专利不等于实现；无型号、流片、样片、制程、数据表、客户或收入"
+    },
+    {
+      "id": "P039",
+      "company": "千觉机器人",
+      "product": "X-TouchMind V1／TacVerse 1k",
+      "stage": "发布／演示",
+      "evidence": "公司一手发布＋展会现场演示报道",
+      "publication": "2026-07-16",
+      "event": "2026-07-16",
+      "retrieved": "2026-10-02",
+      "gap": "模型和1000小时数据集均为公司口径；未见权重、代码、统一任务成功率、公开下载或工业验收。不是SNN／芯片产品。",
+      "url": "https://www.xenserobotics.com/article/387/detail/25"
     }
   ],
   "stages": [
@@ -1158,9 +1195,10 @@
     },
     {
       "label": "发布／演示",
-      "value": 1,
+      "value": 2,
       "ids": [
-        "P023"
+        "P023",
+        "P039"
       ]
     },
     {
@@ -1178,11 +1216,11 @@
     },
     {
       "label": "模型与系统",
-      "value": 6
+      "value": 7
     },
     {
       "label": "相邻替代",
-      "value": 18
+      "value": 19
     }
   ],
   "financial": [
@@ -1276,6 +1314,16 @@
       "url": "https://www.microchip.com/en-us/about/news-releases/products/mythic-selects-membrain-technology-from-sst-for-its-next-gen-ultra-low-power-apus"
     },
     {
+      "id": "T025",
+      "date": "2026-05-13",
+      "published": null,
+      "name": "Intel／Lava",
+      "event": "官方仓库归档、只读；下一代Loihi与新SDK在开发",
+      "boundary": "归档日期可核；README发布日期未知。新SDK为路线，未证明交付、量产或退出研究。",
+      "url": "https://github.com/lava-nc/lava",
+      "retrieved": "2026-10-02"
+    },
+    {
       "date": "2026-05-19",
       "name": "Mythic",
       "event": "收购Videantis",
@@ -1316,6 +1364,16 @@
       "retrieved": "2026-10-02"
     },
     {
+      "id": "T023",
+      "date": "2026-07-16",
+      "published": "2026-07-16",
+      "name": "千觉机器人",
+      "event": "发布X-TouchMind V1与TacVerse 1k",
+      "boundary": "公司发布与展会演示；数据下载、权重、客户验收和收入未核",
+      "url": "https://www.xenserobotics.com/article/387/detail/25",
+      "retrieved": "2026-10-02"
+    },
+    {
       "id": "T010",
       "date": "2026-07-17",
       "published": "2026-07-17",
@@ -1353,6 +1411,16 @@
       "event": "发布工业检测参考部署合作",
       "boundary": "伙伴称已优化模型并形成参考部署／生产就绪方案；未披露终端工厂、采购额、出货量或收入",
       "url": "https://brainchip.com/press/brainchip-partners-with-orama-aoi-for-ai-fueled-defect-detection/",
+      "retrieved": "2026-10-02"
+    },
+    {
+      "id": "T024",
+      "date": null,
+      "published": "2026-08-24",
+      "name": "他山科技／E10A",
+      "event": "公司人员称E10A已完成流片并联合开发感控灵巧手",
+      "boundary": "媒体采访转述；流片不等于回片、工程样片、客户验证、量产或收入",
+      "url": "https://caifuhao.eastmoney.com/news/20260824025726767924920",
       "retrieved": "2026-10-02"
     },
     {
@@ -1449,9 +1517,67 @@
       "boundary": "动态事件状态处理不自动等于SNN芯片；无商业出货／收入证据",
       "url": "https://arxiv.org/html/2602.23654v1",
       "retrieved": "2026-10-02"
+    },
+    {
+      "id": "R003",
+      "name": "OmniVTA／NUS、CASIA等",
+      "route": "视触觉世界模型＋60Hz触觉反射闭环",
+      "publication": "2026-03-19",
+      "evidence": "作者预印本、项目页与真机实验；未独立复现",
+      "metric": "21,879轨迹、86任务、100+物体；六类接触任务真机评估",
+      "boundary": "采用Xense、GelSight Mini、Tac3D、Daimon等常规触觉，不是事件触觉或SNN芯片；代码／数据仅称将公开",
+      "url": "https://arxiv.org/html/2603.19201v3",
+      "retrieved": "2026-10-02"
+    },
+    {
+      "id": "R004",
+      "name": "Event-VLA／上海科技大学等",
+      "route": "DAVIS事件相机＋VLA动作条件事件融合",
+      "publication": "2026-06-28",
+      "evidence": "作者预印本真机研究；Franka Research 3与真实事件相机，未独立复现",
+      "metric": "80次示范、4任务；作者报近暗环境平均成功率52.5%，正常光72.5%",
+      "boundary": "事件视觉而非触觉；VLA动作模型而非明确世界模型；小样本研究，RTX 4090服务器，无专用类脑芯片",
+      "url": "https://arxiv.org/html/2606.29384v1",
+      "retrieved": "2026-10-02"
+    },
+    {
+      "id": "R005",
+      "name": "TouchWorld／研究团队",
+      "route": "预测式＋反应式触觉基础模型",
+      "publication": "2026-07-08",
+      "evidence": "作者预印本研究；未独立复现",
+      "metric": "6项灵巧操作任务；作者报65.0%干净条件、53.7%扰动条件",
+      "boundary": "使用压力手套／常规触觉适配，不是事件触觉或SNN芯片；商业客户、代码和部署未知",
+      "url": "https://arxiv.org/abs/2607.07287",
+      "retrieved": "2026-10-02"
+    },
+    {
+      "id": "R006",
+      "name": "CLP-SNN／LMU、Intel等",
+      "route": "Loihi2原型分配与片上写入；完整自适应规则仅仿真",
+      "publication": "2026-05-05",
+      "evidence": "作者论文v2 Methods及代码；实机科研，未独立复现",
+      "metric": "作者报学习模块0.33ms／0.05mJ；硬件为原型写入一次后冻结，错误时新增原型",
+      "boundary": "主机GPU冻结EfficientNet-B0提取1280维特征；不含特征提取与IO。完整自适应／元可塑性未完整上芯；实机代码需联系作者，依赖专有Lava-Loihi。初稿2025-11-03；v2提交2026-05-05，HTML题头另标8月24日，不替代版本日期。非客户出货／收入。",
+      "url": "https://arxiv.org/html/2511.01553v2",
+      "retrieved": "2026-10-02",
+      "sources": [
+        {
+          "label": "论文Methods全文",
+          "url": "https://arxiv.org/html/2511.01553v2"
+        },
+        {
+          "label": "作者代码与硬件访问边界",
+          "url": "https://github.com/elvinhajizada/CLP-SNN"
+        },
+        {
+          "label": "版本历史",
+          "url": "https://arxiv.org/abs/2511.01553"
+        }
+      ]
     }
   ],
-  "snapshotTime": "2026-10-02 19时模拟AI、存算与数据流复核",
+  "snapshotTime": "2026-10-02T21:38:18+08:00",
   "liquidity": [
     {
       "label": "首批AKD1500生产批次",

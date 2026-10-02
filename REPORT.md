@@ -1,19 +1,19 @@
 # 类脑芯片市场报告
 
-数据快照：2026年10月2日，模拟AI、存算与数据流复核已同步。先查看覆盖分布、38组产品证据阶段、BrainChip收入与现金指标、并购退出追溯及22项关键事件，点击分类追溯公司／产品编号及来源；下方保留竞争地图的公司选择与证据缺口。统计仅代表报告覆盖样本，竞争关系和阶段归类为分析判断，原始证据章节可按需展开。 [GitHub图表与报告副本](https://github.com/v5qqskzkhj-ship-it/neuromorphic-market-report)已发布2026年10月2日快照；仓库为私有，需登录拥有访问权限的GitHub账号。
+数据快照：2026年10月2日，在线学习与科研平台复核。覆盖37个主体、39组产品证据、25项关键事件及6项科研记录；样本数不代表市场份额。事实、机构／厂商宣称、分析与未知分别保留，证据章节可按需展开。手机入口：[交互报告与数据追溯](https://v5qqskzkhj-ship-it.github.io/neuromorphic-market-report/#overview)；[公开GitHub仓库及版本历史](https://github.com/v5qqskzkhj-ship-it/neuromorphic-market-report)。
 
-[打开交互竞争地图](dashboard.html)
+[打开交互竞争地图](index.html)
 
 **核心判断：市场正在分化为低功耗传感、事件视觉、具身触觉、科研计算以及高能效大模型推理几条路径。竞争单位逐渐从单颗芯片扩展到模组、工具链和垂直应用系统。**这是本报告基于下述资料的分析，不是行业统计结论。
 
 ### 图表数据与追溯口径 2026年10月2日
 
-统计来自本报告当前覆盖样本，不代表行业规模、市场份额或穷尽企业数。主体和产品采用不同分母：36个主体、38组重点产品；产品阶段是按公开证据进行的分析归类，不等于统一成熟度认证。图中点击分类可查看编号、来源、证据类型和缺口。另列两项科研记录，研究品牌不计作新增公司；相邻替代专题新增5个主体与7组产品证据，按芯片、开发板和分销状态分开记录。
+统计来自本报告当前覆盖样本，不代表行业规模、市场份额或穷尽企业数。主体和产品采用不同分母：37个主体、39组重点产品；产品阶段是按公开证据进行的分析归类，不等于统一成熟度认证。图中点击分类可查看编号、来源、证据类型和缺口。另列六项科研记录，研究品牌不计作新增公司；相邻替代专题新增5个主体与7组产品证据，按芯片、开发板和分销状态分开记录。
 
 | 主体层次 | 覆盖数量 |
 |---|---:|
 | 硬件与平台 | 11 |
-| 模型与系统 | 6 |
+| 模型与系统 | 7 |
 | 相邻替代 | 19 |
 
 | 产品证据阶段 | 数量 | 产品证据编号 |
@@ -27,12 +27,12 @@
 | 可采购硬件 | 8 | P001、P005、P006、P026、P027、P028、P029、P030 |
 | 商品页／售罄 | 1 | P034 |
 | 生产／部署声明 | 6 | P011、P014、P017、P024、P025、P032 |
-| 发布／演示 | 1 | P023 |
+| 发布／演示 | 2 | P023、P039 |
 | 科研部署已确认 | 1 | P033 |
 
-“生产／部署声明”保留厂商或报道宣称属性，不将其等同于经核验销售收入；可采购相机、模块及开发板不等于裸芯片批量出货。22个关键事件另以T001–T022编号，事件日、发布日期、检索日期分别列示；未知日期留空；T018与T019只确认部署月份，不补造具体日。T020记录标签关联提交日，不替代镜像实际推送日。“科研部署已确认”指使用方公开确认系统到货／运行，仍不等同供应商已收款或确认收入。“商品页／售罄”表示存在正式SKU、价格和规格，但检索时不可下单；不等同当前供货或已核实出货。C001–C036为主体编号，P001–P038为产品证据编号。收入图只比较BrainChip集团2025H1与2026H1公开收入构成，不跨厂商排名；收入、客户收款、现金、生产批次、客户出货、融资和并购分别记录。R001–R002单列研究验证，不计入38组产品分母；“发布／演示”避免将已发布芯片误写成量产。
+“生产／部署声明”保留厂商或报道宣称属性，不将其等同于经核验销售收入；可采购相机、模块及开发板不等于裸芯片批量出货。25个关键事件另以T001–T025编号，事件日、发布日期、检索日期分别列示；未知日期留空；T018与T019只确认部署月份，不补造具体日。T020记录标签关联提交日，不替代镜像实际推送日。“科研部署已确认”指使用方公开确认系统到货／运行，仍不等同供应商已收款或确认收入。“商品页／售罄”表示存在正式SKU、价格和规格，但检索时不可下单；不等同当前供货或已核实出货。C001–C037为主体编号，P001–P039为产品证据编号。收入图只比较BrainChip集团2025H1与2026H1公开收入构成，不跨厂商排名；收入、客户收款、现金、生产批次、客户出货、融资和并购分别记录。R001–R006单列研究验证，不计入39组产品分母；“发布／演示”避免将已发布芯片误写成量产。
 
-[下载图表与证据数据（Excel）](market-evidence.xlsx)：包含图表汇总、主体证据、产品阶段、事件与财务四个表页，可按编号筛选并打开原始URL。来源可读状态及事实／厂商宣称／分析／未知边界沿用当前报告；本轮新增Mythic Vanguard、Starlight、Mead三条在研产品路线及Aspirare模拟计算路线，新增P035–P038与T021–T022；共36个主体、38组产品、22项关键事件、6项并购／整合记录和2项研究。正式产品页、专利、供应链选型、样片、出货、客户和收入分开记录。
+[下载图表与证据数据（Excel）](market-evidence.xlsx)：包含图表汇总、主体证据、产品阶段、事件与财务四个表页，可按编号筛选并打开原始URL。来源可读状态及事实／厂商宣称／分析／未知边界沿用当前报告；本轮新增千觉机器人X-TouchMind V1／TacVerse 1k（C037／P039／T023），补入E10A流片声明（T024），研究记录扩展至OmniVTA、Event-VLA和TouchWorld（R003–R005）；共37个主体、39组产品、24项关键事件、6项并购／整合记录和5项研究。公司发布、媒体转述、论文真机结果、客户验收与收入分开记录。
 
 本报告是一份可持续更新的市场底稿，不宣称已穷尽互联网。付费数据库、未公开合同、闭源技术及未索引页面可能无法获得。没有证据的收入、客户和市场份额保持未知。
 
@@ -85,7 +85,8 @@ Mordor报告称2025年数字处理器占43.56%，航空航天与国防占29.73%�
 | 车载胎压与路面附着估计 | 胎内低功耗、实时响应、车辆接口与可靠性 | POLYN VibroSense TMS | 2026年9月28日公司称工程传感节点开始供潜在客户评估；未披露具名评估方、订单、汽车认证、量产数量或收入 |
 | 动态视觉及XR | 高速运动、低延迟、事件数据 | Prophesee／Sony IMX636／637伙伴相机；iniVation相机；SynSense Speck／Aeveon | IDS相机有现货／系列生产证据，LUCID称Triton2 EVS已发货；iniVation当前网店列公开价格。OpenMV的400美元GenX320模组与500美元多光谱事件相机模组均有正式SKU但检索时售罄；后者同步集成GenX320事件流与1MP／120 FPS彩色全局快门。Aeveon仅见发布、询价与宣传目录，未见公开数据表、开发板、价格或库存；商品页与可采购相机均不等于事件传感器或SNN芯片收入 |
 | 无人机与防务感知 | 低载荷功耗、高速目标检测 | Prophesee Mantara／Terranet BlincVision；Aspinity；Mythic；AnalogAI；Grayscale AI、Neurobus为系统线索 | Aspinity AML100可部署但AML200仍为测试芯片；Mythic M1可联系评估，Starlight仅属在研传感集成路线，现有720P演示运行于M1硅片而非已完成集成传感器；AnalogAI仅到IP选型。Prophesee称Mantara已现场验证，Terranet为评估协议；均需量产订单与部署证据 |
-| 机器人触觉和数据采集 | 接触、滑移、力反馈、多模态数据 | 他山／奥比中光；SynSense Speck2f研究生态 | 他山已有E10A发布、NVIDIA仿真资产与合作方数采协议，传感器月交付数万枚仍为公司／媒体口径；Speck2f已有直接触觉事件推理研究。两者均不能推断世界模型训练增益或量产芯片收入 |
+| 机器人触觉和数据采集 | 接触、滑移、力反馈、多模态数据 | 他山／奥比中光；千觉；OmniVTA／TouchWorld；SynSense Speck2f研究生态 | 他山E10A新增已完成流片的媒体采访口径，但无回片、样片、具名客户或量产证据；千觉已有VTLA发布与展会闭环演示，数据开放未核。OmniVTA和TouchWorld证明常规触觉可进入世界模型／预测闭环；GelNeuro证明Speck2f可做触觉事件推理，尚无事件触觉世界模型或量产芯片收入 |
+| 事件视觉进入机器人动作模型 | 低照度、快速运动与动作时动态线索 | Event-VLA；Prophesee／iniVation事件相机生态 | Event-VLA已在Franka真机使用DAVIS事件相机，作者报近暗环境平均成功率52.5%，但仅4任务、80次示范并依赖RTX 4090服务器；属于事件视觉VLA，不是触觉、明确世界模型或专用类脑芯片 |
 | 生物电与脑机接口 | 通道、发热、实时解码 | SynSense | 厂商布局明确；采集、检测和临床获批是不同状态 |
 | 科研、脑仿真与数值计算 | 神经动力学、在线学习、系统扩展与物理计算 | Intel、SpiNNcloud、达尔文、灵汐 | Sandia确认SpiNNaker2部署并开展热流随机游走模拟；莱比锡系统已运行，药物项目含int8 DNN。科研部署不等同端侧量产、付费确认或世界模型训练 |
 | 传统低功耗MCU／DSP／NPU | 熟悉工具链、接口集成、供货与BOM | ST STM32N6、NXP i.MX RT700、Synaptics SL2610、Hailo-10H、Ambiq Apollo510 | ST、NXP开发硬件已有现货或直购证据，Synaptics和Hailo有分销或订单入口，Ambiq评估板有现货而Apollo510 Lite芯片仍待到货。公开资料聚焦模型编译与推理，未见可比的片上在线权重更新；不能跨模型比较功耗 |
@@ -104,8 +105,8 @@ Mordor报告称2025年数字处理器占43.56%，航空航天与国防占29.73%�
 | SpiNNcloud | SpiNNaker2事件通信与混合计算系统 | Sandia确认2025年3月Braunfels到货并部署；莱比锡确认2025年10月系统运行。当前SDK公开，v0.8.2标签记录首次公开Docker镜像；EventProp仍为多层SNN片上训练研究验证 | 使用方已确认科研部署，不能再写成仅商业可用；合同、支付、收入、规模化训练与同任务整机能耗未知。药物筛选项目采用int8 DNN，不等同SNN训练 |
 | 灵汐Lynxi | KA200系列，ANN与SNN融合 | KA200及SDK有合作方文档；BIDL 1.9说明GPU侧BPTT训练、灵汐侧推理，并宣称网络头部片上学习 | 头部在线学习有文档定位，尚缺独立实测及最新版本交付；2026客户、营收待核 |
 | 达尔文体系 | Darwin系列、物源软件平台 | 2025年8月高校正式发布DarwinMonkey悟空；实验室官网列960颗Darwin3，并提供单芯片开发板、64芯片服务器及2025晶圆级平台 | 已发布研究系统与开发平台；规模和在线学习为机构口径，供货合同、付费用户与收入未知 |
-| Intel | Loihi2、Lava、Hala Point | 官方核实Hala Point使用1152颗Loihi2并部署Sandia研究 | 研究平台；本轮未获得足够官方证据确认Loihi3量产 |
-| 他山科技 | 触觉芯片、传感器、TS-ECHO数采与仿真 | E10A已公开发布／演示；NVIDIA文档收录TS-F-A仿真资产，官方仓库可读；奥比中光8月26日确认视触无本体数采合作；9月公众号转载称传感器月交付数万枚 | 从“官网产品定位”上调为“芯片发布＋可用仿真生态＋合作方确认数采”；传感器交付是公司／媒体口径，不等于E10A量产或审计收入。具名采购、芯片SNN范围、价格和验收待核；80%份额缺分母，不使用 |
+| Intel | Loihi2、Hala Point；Lava与下一代SDK路线 | Hala Point研究部署维持；[Lava官方仓库](https://github.com/lava-nc/lava)显示2026-05-13归档、只读，Intel不再承诺维护；README公告下一代Loihi架构与基于开放标准AI框架的新SDK在开发 | 归档为可核事实，新架构／SDK为路线宣称，未证明发布交付、Loihi3量产或退出类脑研究。官网仍介绍Lava，开发者支持判断应优先采用仓库现状 |
+| 他山科技 | 触觉芯片、传感器、TS-ECHO数采与仿真 | E10A已公开发布／演示；8月24日中国经营报现场采访转述公司人员称已完成流片，并与伙伴联合开发感控一体灵巧手；奥比中光8月26日确认视触无本体数采合作。36氪10月2日报道称公司2024年营收破亿元、汽车电子累计出货数十万套 | E10A由“仅发布／演示”补充到“流片声明＋联合开发”，但流片不等于回片、工程样片、客户验证或量产。营收与出货均为公司／媒体口径且主要属既有传感器／汽车业务，不能归入E10A；具名采购、分产品收入、价格和验收待核；80%份额缺分母，不使用 |
 | 脑智算芯 | 超大规模类脑智算，芯模算一体 | 2026年5月政务发布披露天使轮融资及大模型联合研发 | 创业与研发进展；不是已核实量产收入 |
 
 事实来源：[BrainChip出货声明](https://investor.brainchip.com/press/brainchip-announces-commercial-availability-and-production-shipments-of-akd1500-neuromorphic-processors/)、[AKD1500 M.2公开可用](https://investor.brainchip.com/press/brainchip-akd1500-now-available-in-compact-m-2-form-factor-enabling-fanless-edge-ai-in-industrial-and-commercial-designs/)、[AKD1500 PCIe开发卡](https://investor.brainchip.com/press/brainchip-launches-akd1500-pcie-card-for-edge-ai-evaluation-everywhere/)、[Neuromorphyx在库BrainBoard1500](https://neuromorphyx.com/)、[BrainChip路线图](https://brainchip.com/brainchips-2026-technology-roadmap/)、[Pulsar产品](https://www.innatera.com/product/)、[Innatera部署](https://www.innatera.com/newsroom/neuromorphic-enters-the-mainstream-with-innateras-pulsar-chip-at-embedded-world-2026/)、[Joya客户模块](https://www.innatera.com/newsroom/joya-design-takes-neuromorphic-chip-from-design-to-device-with-first-innatera-powered-consumer-audio-product-at-awe-china/)、[MWC客户口径](https://www.innatera.com/newsroom/innatera-brings-physical-ai-to-life-at-mwc-shanghai-2026/)、[Synfire Beta包](https://pypi.org/project/synfire/)、[Akeana供应合作](https://www.innatera.com/newsroom/innatera-and-akeana-partner-on-energy-efficient-risc-v-for-edge-ai/)、[SynSense Speck](https://www.synsense.ai/products/speck-2/)、[Aeveon发布](https://www.synsense.ai/synsense-closes-strategic-round-to-accelerate-the-development-of-their-high-speed-3d-neuromorphic-processor-dynap-cnn2-2/)、[iniVation产品文档](https://docs.inivation.com/hardware/current-products.html)、[iniVation在线商店](https://shop.inivation.com/)、[时识融资同日媒体](https://finance.sina.com.cn/jjxw/2026-06-30/doc-inifcvua1690008.shtml?froms=ggmp)、[Prophesee Mantara与软件迁移公告](https://www.prophesee.ai/2026/06/15/prophesee-launches-mantara-event-based-drone-detection/)、[Prophesee当前资源访问说明](https://www.prophesee.ai/resources/)、[Prophesee伙伴相机](https://www.prophesee.ai/event-based-camera-partners/)、[OpenMV GenX320商品页](https://openmv.io/products/openmv-genx320-camera-module)、[IDS uEye XCP-E IMX636网店](https://en.ids-imaging.com/store/ueye-xcp-e.html)、[IDS uEye XLS-E生命周期](https://en.ids-imaging.com/store/ueye-xls-e.html)、[LUCID Triton2 EVS](https://thinklucid.com/triton2-evs-event-based-camera/)、[Terranet防务评估](https://terranet.se/en/press/terranet-signs-first-defence-evaluation-agreement/)、[SpiNNcloud](https://spinncloud.com/)、[Sandia部署](https://www.sandia.gov/research/news/brain-based-computing-for-nuclear-deterrence-solutions/)、[莱比锡使用方公告](https://www.uni-leipzig.de/newsdetail/artikel/vom-gehirn-inspiriert-supercomputer-staerkt-ki-forschung-an-der-universitaet-leipzig-2025-10-28)、[ScaDS.AI药物筛选路线](https://scads.ai/research/ai-algorithms-and-methods/methods-and-hardware-for-neuro-inspired-computing/projects/drug-discovery-on-the-spinnaker2-neuromorphic-supercomputer/)、[py-spinnaker2标签](https://gitlab.com/spinnaker2/py-spinnaker2/-/tags)、[灵汐合作方文档](https://docs.acoinfo.com/ai/overview/ai_chips/lynxi.html)、[达尔文官方平台](https://www.darwinware.com/zh)、[Intel Hala Point](https://www.intc.com/news-events/press-releases/detail/1691/intel-builds-worlds-largest-neuromorphic-system-to)、[他山](https://www.tashantec.com/)、[脑智算芯政务发布](https://www.thepaper.cn/newsDetail_forward_33199538)。
@@ -121,21 +122,29 @@ Mordor报告称2025年数字处理器占43.56%，航空航天与国防占29.73%�
 | 达尔文／研究系统 | [实验室发布页](https://www.darwinware.com/en/news/2025/publish)列悟空960颗Darwin3、开发板、64芯片服务器与晶圆级平台；Darwin3支持在线学习为机构宣称 | 实验室页面标2025-08-01；[浙大官方发布索引](https://www.zju.edu.cn/2025/0802/c76699a3072815/page.htm)标2025-08-02 | 修正原仅列旧平台的覆盖缺口；两处发布日期分别保留，不能合并为同一精确事件时间；规模发布不代表量产或收入 |
 | SpiNNaker2／科研训练平台 | [EventProp论文v4](https://arxiv.org/html/2412.15021v4)在单芯片演示Yin Yang多层SNN训练，前向、反向及权重更新由片上PE执行；[2026芯片论文](https://arxiv.org/html/2607.24396v1)说明学习由可编程Arm核心实现 | EventProp初稿2024-12-19，v4 2025-03-19；芯片论文2026-07-27 | 作者研究结果；任务小、SRAM限制，不能视为边端持续学习量产方案。当前[SDK文档](https://spinnaker2.gitlab.io/py-spinnaker2/)与[标签页](https://gitlab.com/spinnaker2/py-spinnaker2/-/tags)已确认公开软件和Docker镜像，支持Brian2教程、NIR导入及双向实时脉冲；公开SDK不证明规模化训练瓶颈已解决 |
 | Akida联邦学习／研究演示 | 两个物理AKD1000节点，四节点结果为虚拟实验；三类语音任务、CPU特征提取与片上末层学习；全文与代码均可读 | [预印本](https://arxiv.org/html/2603.13037v1)2026-03-13；实验具体日期未注明 | 作者报告，尚未独立复现；不是商业客户、世界模型或大规模联邦部署证据 |
+| Intel Lava／软件生态 | [官方仓库](https://github.com/lava-nc/lava)已归档、只读；Intel不再保证维护或接受补丁，公告转向下一代Loihi及新SDK | 仓库归档2026-05-13；README公告具体发布日期未知；检索2026-10-02 | 软件维护状态事实；下一代方案仅路线宣称，新的SDK交付、迁移兼容与支持条款未知 |
+| R006 CLP-SNN／Loihi2科研学习 | [论文v2](https://arxiv.org/html/2511.01553v2)§Methods说明实机原型仅分配时写入一次，之后冻结；错误输入分配新原型。完整自适应更新与元可塑性在仿真中，受软件使能限制未完整运行于硬件 | 初稿2025-11-03；arXiv修订2026-05-05；HTML内部题头另标2026-08-24，不能当新版本提交日期 | 作者实机研究，未独立复现；冻结EfficientNet-B0在主机GPU提取1280维特征，0.33ms／0.05mJ为学习模块口径、排除IO；不能宣传全链路或整网训练能耗。公开[代码](https://github.com/elvinhajizada/CLP-SNN)含仿真／基准；实机代码需联系作者，依赖专有Lava-Loihi和硬件访问 |
 
 **联邦研究的核查结果：**上述Akida预印本报告77.0%±3.8%为每次试验选择最优聚合策略的上界，不能写成固定FedUnion的部署精度；特征提取及宽特征投影在CPU上。报告的约1580次试验，与[代码仓库README](https://github.com/Stemo688/federated-neuromorphic-learning)当前约800次及部分策略描述存在差异，需对齐提交版本、结果文件后再复现。代码入口可见是事实，数值仍为作者报告；本轮没有实机复验或商业收入新证据。
 
 **竞争判断（分析）：**科研市场已有大系统与多层训练平台，端侧产品则需要逐项核实更新范围。芯灵的差异应落实到相同任务下的传感输入、学习层、状态与权重容量、聚合方式、遗忘／漂移、整机能耗及付费部署；仅使用“在线学习”或“联邦”标签不足以建立优势。
 
+本轮修正（分析）：Intel软件维护风险提高，但不能推断其退出；下一代SDK仍是路线。CLP-SNN补足实机在线学习证据，同时暴露“完整算法”与“实机简化版”的差异。芯灵应以实际可交付工具链、权重持续更新范围、容量增长／遗忘行为及含特征提取和IO的整机实测比较，不能据研究模块倍数宣称量产优势。
+
 ## 机器人触觉与多模态证据
 
-检索日期：2026年10月2日。芯片、传感器、仿真工具、数据采集合作和科研样机分别记录；产品编号P023–P024、研究编号R001–R002。资料不支持把全部触觉方案归为SNN，也不支持将多模态采集等同于已验证世界模型训练。
+检索日期：2026年10月2日。芯片、传感器、仿真工具、数据采集合作和科研样机分别记录；产品编号P023–P024、P039，研究编号R001–R005。当前证据已出现两条真实闭环：常规触觉进入世界模型／预测控制，以及事件相机进入VLA动作模型；仍未出现事件触觉直接训练世界模型或专用类脑芯片带来量产收益的证据。
 
 | 主体／交付层 | 本轮证据与日期 | 状态及边界 |
 |---|---|---|
-| 他山E10A／动态触觉芯片 P023 | WRC展商一手自述称ASC将触觉信号直接变为脉冲；新华网7月17日发布报道含现场演示 | 发布／演示；“动态触觉”不能自动证明整网SNN处理或在线学习。未见完整数据表、公开价格、采购入口或E10A量产客户 |
+| 他山E10A／动态触觉芯片 P023 | 新华网7月17日报道含现场演示；8月24日中国经营报现场采访转述公司生态负责人称E10A已完成流片，搭载E10A的感控一体灵巧手正与伙伴联合开发 | 发布／演示＋流片声明；流片不等于回片、工程样片、客户验证、量产或收入。“动态触觉”也不能自动证明整网SNN处理或在线学习。未见完整数据表、公开价格或具名E10A客户 |
 | 他山既有触觉传感器 P024 | IPO早知道9月23日全文转载称月交付数万枚、上半年订单超过2025全年四倍；WRC展商名单列智元、银河通用、因时等合作对象 | 公司／媒体出货与订单口径；未由具名采购方验证，未披露型号分拆、单价和收入。订单不等于回款；80%份额缺时间、分母和方法，不纳入份额统计 |
 | TS-F-A／仿真工具 | NVIDIA文档9月18日更新，列TS-F-A Certified仿真资产；他山Isaac Sim与MuJoCo仓库全文可读 | 可用模型／资产事实，非芯片认证、实物出货或客户付款。仓库指向Isaac Sim 5.0.0及MuJoCo 3.2.3，内部传感回调含编译库；未独立运行或验证Sim2Real误差 |
 | TS-ECHO／视触数据采集 | 奥比中光8月26日一手公告确认战略协议，拟将无本体数采硬件与TS-ECHO整合 | 合作方确认签约；具体签约日未知，8月26日是发布日期。没有公开验收、采购金额、数据规模或世界模型训练对照 |
+| 千觉X-TouchMind V1／TacVerse 1k P039 | 7月16日公司发布VTLA模型与1000小时视触数据集；WAIC现场报道记录折纸盒受扰闭环和耳机装配演示 | 发布／演示。数据规模、降本80%与效率提升3–5倍均为公司口径；权重、代码、统一成功率、工业验收与收入未知，计划开放申请不等于已公开下载 |
+| OmniVTA／科研 R003 | 3月19日预印本：21,879条同步轨迹、86任务、100+物体；双流视触世界模型与60Hz触觉反射控制，含真机实验 | 作者研究结果，未独立复现；使用Xense、GelSight Mini、Tac3D、Daimon等常规触觉，不是事件触觉或SNN芯片。项目页可看演示，但数据／代码仅称将公开 |
+| Event-VLA／科研 R004 | 6月28日预印本：DAVIS事件相机、Franka Research 3，80次示范、4任务；作者报近暗环境平均成功率52.5%，正常光72.5% | 真实事件视觉进入VLA动作模型的真机证据；不是触觉或明确世界模型，小样本且使用RTX 4090服务器，无专用类脑芯片；仿真部分含RGB转事件 |
+| TouchWorld／科研 R005 | 7月8日预印本：预测式与反应式触觉基础模型，6项灵巧操作任务；作者报干净条件65.0%、扰动条件53.7% | 作者研究结果，未独立复现；采用压力手套／常规触觉适配，不是事件触觉或SNN芯片；商业客户、代码与部署未知 |
 | GelNeuro／科研 R001 | 中科院自动化所7月6日预印本：GelSight Mini前端直接接Speck2f，片上ROI及SCNN推理，无主机预处理；作者报15类纹理96.3%、80ms窗口、板级活动19.6mW | 作者实机研究结果，未独立复现；PC离线训练，不是片上在线学习；80ms是推理窗口，19.6mW不等于照明、机械臂及整机功耗。不采用CPU／GPU倍数作竞争排名，未发现公开完整复现包 |
 | SpikingTac／科研 R002 | 中科院自动化所2月27日预印本：事件相机、持久动态状态图、U-Net去噪、迟滞增量补偿；作者报感知1000Hz、跟踪350Hz及实验过冲6.2mm | 研究样机，未独立复现；事件状态重建不自动等于专用SNN芯片。作者材料成本不是商品报价，无商业交付或收入证据 |
 
@@ -154,6 +163,7 @@ Mordor报告称2025年数字处理器占43.56%，航空航天与国防占29.73%�
 | 最终序列，上海杨浦；2023年创业 | 飞行具身世界模型、端侧SNN基座、芯片模组与嵌入式BOX | 2026-05-28《杨浦时报》称年营收进入千万元；08-27南京市政府稿称已实现营收3000万元，属政府活动报道、未经审计。7月媒体披露模组千元级、BOX万元级及面向大客户／Tier 1模式 | 从“收入未知”上调为“有收入公开口径”。仍无客户具名采购或审计分拆；与大疆、道通为洽谈。芯片模组不等于自研ASIC，型号、供应商与SNN执行占比待核 |
 | 寰宇心生 WorldMind，上海；2026年9月3日注册 | 神经认知世界模型、多模态数据体系与训练基础设施 | 2026-09-07披露元生资本数千万元早期融资；不同媒体称种子或天使，按同一轮合并。科创板日报称WorldArena 2.0 Track 1前三、Track 2第二；榜单主体映射仍需独立复核 | 真实场景工程仍待推进；未发现芯片产品或收入披露。不能把世界模型评测成绩直接等同商业化 |
 | 羲悉智能 Xisiid，上海杨浦；2025年9月成立 | 类脑预测模型、System 1执行与System 2层级记忆；自进化智能体基座 | 官网全文可读：1B与8B模型完成阶段验证；2026-09公开基座并披露数千万元种子轮。主体映射为上海羲悉智能科技有限公司；蔡炎松为创始人／董事长，李丹为CEO／法定代表人 | 30B模型对标万亿参数模型、机构客户验证及算力节约均为公司宣称；客户未具名、付款与评测原始数据未知。属模型／系统公司，无自研芯片证据 |
+| 千觉机器人 Xense Robotics，上海；2024年成立 | 多模态触觉传感器、XTacFlow数采、TacVerse 1k与X-TouchMind V1 VTLA模型 | 7月16日公司发布模型与1000小时数据集；WAIC现场报道记录双臂折纸盒受扰后继续完成及耳机装配演示。官方称模型统一视觉、语言、触觉、动作和本体状态 | 模型／系统层，不是SNN芯片。权重、代码、统一成功率、工业验收与收入未披露；官方原计划7月30日起开放数据申请，本轮未检索到可核的Hugging Face／魔搭公开下载页 |
 | 中科类脑，安徽相关线索 | 异构计算系统、面向电力的多模态大模型、算电碳协同系统 | 官网搜索索引显示业务覆盖算力与电力系统；纳入系统层补查池 | 本轮仍未取得足够完整的一手产品与客户证据；不能因公司名断定采用SNN |
 
 **全球世界模型并购对照：**World Labs于2026年7月21日收购机器人仿真公司SceniX，7月28日展示real-to-sim-to-real训练与评估链，9月1日发布Atlas并向少数伙伴早期开放。AMD于9月26日签署、9月28日宣布约82亿美元全股票收购协议，预计2026年底完成，仍待监管批准和惯例条件。World Labs属于模型／系统层，不计为类脑芯片供应商；未发现其采用事件数据、SNN或专用类脑芯片的证据。来源：[AMD公告](https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute)、[SEC 8-K](https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm)、[SceniX／R2S2R](https://www.worldlabs.ai/blog/real-to-sim-to-real)、[Atlas](https://www.worldlabs.ai/blog/atlas)。
@@ -252,11 +262,13 @@ Syntiant[当前产品阶段表](https://www.syntiant.com/platform/chips-and-hard
 | 6月30日，8月26日财报确认 | BrainChip AKD1500首批生产批次 | [监管半年报](https://investor.brainchip.com/wp-content/uploads/2026/09/2026-08-26-June-2026-half-yearly-report.pdf)确认首批2000颗已收货并进入商业规模制造，最终产量因良率低于预期预计略低于计划；2000颗不是已核客户出货，客户仍未具名 |
 | 6月完成，7月14日参投方发布 | SynSense数亿元B轮及批量订单口径 | [参投方华仓资本](https://mp.weixin.qq.com/s/HLJ6C3ItPRv6SeJbwSJeEQ)确认国调二期领投及华仓、国海、宏力达等参与，并称视觉产品获批量订单、近两年年均复合增长率超160%；未披露型号、客户、数量、金额、交付、绝对收入或审计基数 |
 | 7月7日 | POLYN与ALTER France建立芯片验证实验室 | [公告](https://polyn.ai/polyn-technology-and-alter-technology-france-establish-a-joint-chip-validation-lab/)；验证与测试生态建设 |
+| 7月16日 | 千觉发布X-TouchMind V1与TacVerse 1k | [公司一手发布](https://www.xenserobotics.com/article/387/detail/25)称模型统一视觉、语言、触觉、动作和本体状态，并计划开放1000小时数据集；WAIC现场报道有折纸盒与耳机装配演示。未见权重、代码、公开数据下载、工业验收或收入 |
 | 7月17日发布 | 他山E10A动态触觉芯片亮相 | [发布报道](https://www3.xinhuanet.com/tech/20260717/d66a7bb7dcf8414baeab73d6499b785e/c.html)及[展商自述](https://www.worldrobotconference.com/expo/company/544.html)；发布／演示，不等于量产 |
 | 7月21日收购，7月28日发布R2S2R | World Labs收购机器人仿真公司SceniX | [World Labs](https://www.worldlabs.ai/blog/real-to-sim-to-real)称其链路把真实任务转为可控仿真，用于策略训练、评估和回到真实机器人；结果为公司展示，未独立复现，未披露交易金额或客户收入 |
 | 7月28日 | BrainChip AKD1500 M.2模块公开可用 | [公告](https://investor.brainchip.com/press/brainchip-akd1500-now-available-in-compact-m-2-form-factor-enabling-fanless-edge-ai-in-industrial-and-commercial-designs/)称可从其网店购买；证明模块采购入口，不证明终端销量 |
 | 8月13日 | BrainChip与Orama.AOI公布工业检测参考部署 | [BrainChip公告](https://brainchip.com/press/orama-ai-partners-with-brainchip-to-bring-production-ready-neuromorphic-vision-to-industrial-inspection/)称伙伴用轮胎生产与半导体封装数据重训Akida；“production-ready”和“reference deployment”为伙伴／公司宣称，未披露终端工厂、订单、数量或收入 |
 | 8月18日宣布；10月2日检索 | Neuromorphyx BrainBoard1500第三方开发板 | [BrainChip公告](https://investor.brainchip.com/press/brainchip-and-neuromorphyx-announce-an-akd1500-embedded-developer-board-bringing-neuromorphic-ai-to-the-embedded-engineering-community/)与[Neuromorphyx商店](https://neuromorphyx.com/)交叉；后者显示现货、立即发货。仍是开发／评估板，不是终端设计定点 |
+| 8月24日发布，流片日期未知 | 他山公司人员称E10A已完成流片 | [中国经营报现场采访转载](https://caifuhao.eastmoney.com/news/20260824025726767924920)称E10A已完成流片，并与伙伴联合开发感控一体灵巧手；流片不等于回片、工程样片、客户验证、量产或收入 |
 | 8月26日发布，具体签约日未知 | 奥比中光与他山确认视触无本体数采合作 | [合作方一手公告](https://www.orbbec.com/news/orbbec-and-tashan-technology-form-strategic-partnership-to-advance-vision-tactile-data-collection-solutions/)；拟整合数采硬件与TS-ECHO，非验收、付费或世界模型训练实证 |
 | 8月26日发布 | BrainChip 2026半年财报 | [官方财报](https://investor.brainchip.com/wp-content/uploads/2026/09/2026-08-26-June-2026-half-yearly-report.pdf)；可用实际收入校验商业化叙事 |
 | 8月31日 | Express LUCK宣布生产线部署MemryX边缘AI系统 | [联合稿](https://memryx.ai/news/express-luck-selects-memryx-for-ai-enabled-smart-manufacturing-operations/)含制造商副总裁引述；证明具名日常生产部署，不披露数量、金额或收入 |
@@ -297,7 +309,8 @@ BrainChip截至2026年6月30日半年收入1222745美元，同比增长19%；许
 | Prophesee／Sony／OpenMV事件相机生态 | IDS XCP-E IMX636网店显示有现货，XLS-E标为系列生产；LUCID官方称Triton2 EVS已发货。OpenMV的400美元GenX320模组与500美元多光谱事件相机模组均有正式SKU；多光谱模组同步集成GenX320与PAG7936 1MP／120 FPS彩色全局快门，检索时库存0 | 伙伴相机已有公开采购、系列生产或发货证据；OpenMV多光谱模组证明事件流＋彩色帧已有商品化集成入口，但按“商品页／售罄”记录，不能写成当前可采购或终端量产 | 不等于Prophesee传感器销量、世界模型采用、终端设计定点或收入；两款OpenMV模组补货、历史出货、伙伴销售量和客户部署未知 |
 | iniVation事件相机 | 当前文档列DVXplorer、DAVIS346等产品；官方商店列公开价格和购买入口 | 开发／研究相机公开可采购；比无价格的联系式获取更成熟 | 库存数量、年度销量、客户构成、收入及是否用于量产终端未知 |
 | SynSense Speck／Aeveon | Speck有开发资源但本轮未见公开库存；Aeveon 6月发布页面仅给销售邮箱 | Speck为开发平台获取路径；Aeveon按发布／销售接洽阶段记录 | Aeveon数据表、开发板、价格、生产状态和客户；Speck当前库存与分产品收入未知 |
-| 他山传感器／E10A／TS-ECHO | 9月公众号转载称传感器月交付数万枚；E10A已发布；8月26日奥比中光确认数采合作 | 传感器出货声明、芯片发布与合作协议分账；NVIDIA收录为仿真资产事实，不是芯片认证 | E10A量产客户、采购付款、分产品收入、视触方案验收未知；80%份额缺分母，不作统计 |
+| 他山传感器／E10A／TS-ECHO | 8月24日媒体采访转述公司人员称E10A已完成流片并联合开发感控灵巧手；10月2日36氪报道公司2024年营收破亿元、汽车电子累计出货数十万套、机器人业务2025年近半营收；奥比中光确认数采合作 | E10A按流片声明／发布演示记录；公司层已有公开营收和出货口径，但未经审计且主要来自既有传感器／汽车与机器人业务，不能归入E10A。合作协议不等于验收 | E10A回片、样片、量产客户、采购付款与分产品收入；TS-ECHO数据开放和视触验收未知；80%份额缺分母，不作统计 |
+| 千觉X-TouchMind V1／TacVerse 1k | 公司7月16日发布模型和1000小时数据集；WAIC现场报道确认双臂折纸盒与耳机装配演示 | 模型／数据／硬件全栈的发布与现场演示，高于纯概念；计划开放申请不等于数据已公开下载，也不是芯片量产或收入 | 权重、代码、统一成功率、公开数据入口、工业客户验收、合同和收入未知 |
 | World Labs／SceniX／AMD | World Labs已收购SceniX并公开R2S2R训练评估链；Atlas面向少数伙伴早期访问；AMD已签约拟以约82亿美元全股票收购World Labs | World Labs属于模型／系统层；SceniX并入已完成，AMD交易仍待监管和交割，预计2026年底完成 | World Labs客户、合同、收入和AMD交割未知；未见事件数据、SNN或专用类脑芯片证据 |
 | Syntiant／Knowles消费MEMS麦克风 | 2024年12月30日以1.5亿美元现金加股票完成收购；被收购业务2023年收入约2.56亿美元 | 形成传感器＋NDP＋模型＋软件整合路径；收购已完成 | 2.56亿美元不是NDP芯片收入；收购后收入拆分、NDP出货和协同客户未知 |
 
@@ -340,7 +353,7 @@ BrainChip截至2026年6月30日半年收入1222745美元，同比增长19%；许
 
 每项新增记录至少保留：主体、产品、技术分类、应用、事件日期、发布日期、检索日期、来源URL、证据状态、性能测试边界和未知项。合并重复报道，纠正旧结论，标记撤回与停止销售。性能统一记录准确率、输入、时延、计算核心与整机功耗、制程、模型、在线学习范围和代码可获得性。
 
-**下一轮优先缺口：**轮换至机器人触觉与多模态，优先核实他山E10A量产／客户／收入、视触方案验收、机器人本体闭环部署及事件触觉数据进入世界模型训练的证据。模拟AI继续跟踪Mythic Vanguard投片／样片／2027交付、Starlight集成传感器、Mead 3D NAND硅片、Rain自有芯片、REEXEN HBF／ADA300／400交付与Aspirare真实ASIC；核心芯片继续核实芯灵自身量产／付费客户基线、SpiNNcloud采购支付／收入、Innatera终端出货。
+**下一轮优先缺口：**轮换至融资、收入、客户与供应链，优先核实芯灵自身量产／付费客户基线、SpiNNcloud采购支付与收入、Innatera终端出货；Intel新SDK发布／迁移路径、CLP-SNN完整学习规则上芯与独立复现继续跟踪。触觉未核问题保留：E10A回片／样片／量产客户、他山分产品收入、千觉数据开放与工业验收、OmniVTA代码／数据开放，以及事件触觉直接用于世界模型训练。
 
 ### 更新日志
 
@@ -379,3 +392,5 @@ BrainChip截至2026年6月30日半年收入1222745美元，同比增长19%；许
 2026年10月2日事件视觉与多模态采集模组复核：新增P034——[OpenMV多光谱事件相机模组](https://openmv.io/products/multispectral-event-camera-module)公开500美元价格、SKU与规格，把Prophesee GENX320事件流和PAG7936 1MP／120 FPS彩色全局快门同步集成，仅兼容OpenMV N6；检索时库存0并明确售罄，故单列“商品页／售罄”，不写成当前可采购、已出货或终端量产。[400美元GENX320模组](https://openmv.io/products/genx320-camera-module)同样仍售罄。SynSense Aeveon只新增日本分销商询价入口和两页宣传目录，仍无公开数据表、开发板、价格、库存或具名客户；Speck可读到2025年12月更新的开发套件手册，但未核到当前库存。Prophesee 5.3.1文档仍在线、资源页仍指向OpenEB，不改变公司2026年6月15日已宣布OpenEB与独立Metavision SDK结束生命周期的判断；Hearth公开迁移包仍未找到。世界模型检索中，EA-WM的“event-aware”指视频时序差分，不是事件相机数据，未计作类脑／事件视觉采用。对芯灵影响：事件流＋彩色帧的同步采集已有明确商品化集成入口，传感融合本身不是空白；但售罄、无客户和无训练实证意味着竞争压力主要在开发生态，不足以证明规模化市场。缺口：OpenMV补货与历史出货、终端设计定点、Hearth迁移、Aeveon／Speck供货、事件数据进入世界模型训练或闭环部署的具名证据。下轮转向模拟AI、存算与数据流。
 
 2026年10月2日模拟AI／存算／数据流复核：Mythic由“M1＋车载合作／收购”扩展为可追溯的多路线产品组合。新增P035 Vanguard——官网明确计划2027可用，采用GF 28nm模拟die＋TSMC N5A数字die；3月17日Microchip／SST另行确认下一代APU选用memBrain／SuperFlash，新增T021。新增P036 Starlight——标注在研，页面展示720P低照度处理运行于M1硅片，但未证明光电阵列与APU已完成混合键合集成。新增P037 Mead——标注在研的3D NAND大模型路线，100B+参数与低于1W均为公司目标，未见硅片。Aspirare由待核线索上调为相邻替代主体C036：US20260057197A1于2月26日公开，申请人／受让人列为14873891 Canada Inc. dba Aspirare，确认模拟MAC知识产权与主体映射，新增P038和T022；专利不等于流片、样片或量产。Rain仍只确认数字CIM IP可授权、自有硬件“即将可用”；REEXEN官网明确HBF是NAND近计算容量层、与SRAM-CIM不是同一种器件，且公司用语仍是“探索”，不计交付。对芯灵影响：Mythic已形成模拟die、数字控制、传感融合和大模型存储的系统级路线，供应链可信度上升；但新增产品仍停留研发，没有客户、样片、出货或收入，当前压力主要是路线与生态，不足以改写量产竞争排序。缺口：Vanguard投片／样片与2027节点、Starlight集成传感器、Mead 3D NAND硅片、Aspirare ASIC、Rain硬件和REEXEN新系统交付。下轮转向机器人触觉与多模态。
+
+2026年10月2日在线学习与科研平台复核：新增T025（Lava 2026-05-13归档）与R006（CLP-SNN），公司／产品分母维持37／39；校正模型与系统样本数为7，合计37。覆盖Intel官方仓库、研究官网、arXiv版本历史、论文全文Methods及作者代码。旧“Lava开放框架”判断补充维护终止与新SDK路线；CLP-SNN实机为一次写入／新原型分配，完整自适应规则仍属仿真，性能不含主机特征提取与IO，禁止整机排名。证据缺口：新SDK交付、迁移兼容、完整学习上芯、独立复现和付费部署；下一轮追踪收入客户供应链。同步公开手机报告入口与交互快照；既有用户编辑、折叠和选择状态保留。
